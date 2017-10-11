@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Points</title>
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
+  	<script src="js/howler.core.js"></script>
+    <style>
+	html {
+	    height: 100%;
+	}
+
+	body {
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    position: fixed;
+	    cursor: default;
+	    width: 100%;
+	    height: 100%;
+	}
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+var viewer = pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "imgs/compass-points.jpg",
+    "autoLoad": true,
+	"orientationOnByDefault" : true,
+	"showZoomCtrl": false,
+	"showFullscreenCtrl" : false,
+	"compass" : true
+});
+var initVolume = 0.5;
+var tolerance = 90; 
+var intervalTime = 1000;
+var soundN = new Howl({
+  src: ['sounds/north.mp3'],loop: true, volume: 0
+});
+soundN.play();
+var soundE = new Howl({
+  src: ['sounds/east.mp3'],loop: true, volume: 0
+});
+soundE.play();
+var soundS = new Howl({
+  src: ['sounds/south.mp3'],loop: true, volume: 0
+});
+soundS.play();
+var soundW = new Howl({
+  src: ['sounds/west.mp3'],loop: true, volume: 0
+});
+soundW.play();
+
+
+var myVar = setInterval(myTimer, intervalTime);
+
+function myTimer() {
+	var yaw = viewer.getYaw();
+	// N = 0, E = 90, S = 180, W = -90
+	setSoundByYaw(soundN, 0, yaw);
+	setSoundByYaw(soundE, 90, yaw);
+	setSoundByYaw(soundS, 180, yaw);
+	setSoundByYaw(soundW, 270, yaw);
+	
+}
+function setSoundByYaw(sound, pos, y){
+	// convert to 360
+	if(y < 0){
+		y *= -1;
+		y = 180 - y;
+		y += 180;
+	}	
+	var vol = 0;
+	var diff = "";
+	if(y > pos - tolerance && y < pos + tolerance){
+		// valid as is
+		diff = pos - y;
+	}else if(y - 360 > pos - tolerance){
+		// valid - 360
+		y -= 360;
+		diff = pos - y;
+	}else if(y + 360 < pos + tolerance){
+		// valid + 360
+		y += 360
+		diff = pos - y;
+	}
+	if(diff != ""){
+		if(diff < 0){
+			diff *= -1;
+		}
+		diff = tolerance - diff;
+		vol = (diff/tolerance) * initVolume;
+		
+	}
+	sound.volume(vol);
+}
+
+</script>
+
+</body>
+</html>
