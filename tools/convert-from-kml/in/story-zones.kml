@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>story zones</name>
+    <Style id="poly-01579B-2201-82-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>529b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-01579B-2201-82-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>529b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-01579B-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-01579B-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-01579B-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-2101-82-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>2.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-2101-82-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.1515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-2101-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-2101-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-2101-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-2201-82-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-2201-82-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-558B2F-2201-79-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-558B2F-2201-79-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-558B2F-2201-79">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-558B2F-2201-79-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-558B2F-2201-79-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-C2185B-2301-82-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>525b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-C2185B-2301-82-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>525b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-C2185B-2301-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C2185B-2301-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C2185B-2301-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-2201-82-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-2201-82-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-2301-79-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-2301-79-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-2301-79">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-2301-79-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-2301-79-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-2101-82-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-2101-82-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.1515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-2101-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-2101-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-2101-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-2301-82-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-2301-82-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-2301-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-2301-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-2301-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Story Zone - INTRO</name>
+      <description><![CDATA[<a href="https://www.youtube.com/watch?v=g0FIfHM6nbA"><img src="http://img.youtube.com/vi/g0FIfHM6nbA/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/g0FIfHM6nbA">https://www.youtube.com/embed/g0FIfHM6nbA</a><br><br>mp3: /mp3-128k/01-Intro-128k.mp3<br>webm: /webm-96k/01-Intro.webm<br>description: Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. ]]></description>
+      <styleUrl>#poly-0F9D58-2101-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/01-Intro-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/01-Intro.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. </value>
+        </Data>
+        <Data name="gx_media_links">
+          <value>https://www.youtube.com/embed/g0FIfHM6nbA</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1609138,52.6639036,0
+              0.1612973,52.6637832,0
+              0.1615227,52.6640451,0
+              0.1610774,52.6641638,0
+              0.1609138,52.6639036,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 1</name>
+      <description><![CDATA[mp3: /mp3-128k/03-Zone-1-128k.mp3<br>webm: /webm-96k/03-Zone-1.webm<br>description: Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. <br><br>Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.<br>]]></description>
+      <styleUrl>#poly-F57C00-2301-79</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/03-Zone-1-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/03-Zone-1.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. 
+
+Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1607019,52.6642175,0
+              0.1604202,52.6640442,0
+              0.1601171,52.664106,0
+              0.1599482,52.6642404,0
+              0.1598946,52.6644095,0
+              0.1592803,52.6646145,0
+              0.1590442,52.6643632,0
+              0.1593661,52.6642208,0
+              0.159637,52.6639442,0
+              0.1598476,52.6638068,0
+              0.1601064,52.6637344,0
+              0.1604471,52.6636807,0
+              0.1608279,52.6638873,0
+              0.1609876,52.6641174,0
+              0.1607019,52.6642175,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 2</name>
+      <description><![CDATA[mp3: /mp3-128k/05-Zone-2-128k.mp3<br>webm: /webm-96k/05-Zone-2.webm<br>description: Description of monument and Wisbech.]]></description>
+      <styleUrl>#poly-FFEA00-2301-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/05-Zone-2-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/05-Zone-2.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Description of monument and Wisbech.</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1587679,52.6645901,0
+              0.1585293,52.6649675,0
+              0.1579097,52.6646926,0
+              0.1581135,52.6646129,0
+              0.1584488,52.66459,0
+              0.1587679,52.6645901,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 3</name>
+      <description><![CDATA[mp3: /mp3-128k/06-Zone-3-128k.mp3<br>webm: /webm-96k/06-Zone-3.webm<br>description: We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. <br><br>The river is glowing. You can see all the power draining away.<br>]]></description>
+      <styleUrl>#poly-C2185B-2301-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/06-Zone-3-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/06-Zone-3.webm</value>
+        </Data>
+        <Data name="description">
+          <value>We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. 
+
+The river is glowing. You can see all the power draining away.
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1577033,52.6647576,0
+              0.1581108,52.6648439,0
+              0.1578641,52.6651155,0
+              0.1575744,52.6649772,0
+              0.1577033,52.6647576,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 4</name>
+      <description><![CDATA[mp3: /mp3-128k/07-Zone-4-128k.mp3<br>webm: /webm-96k/07-Zone-4.webm<br>description: Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.<br><br>She opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.<br><br>She describes the Brink as Georgian and references the fact that King George has just died. <br>]]></description>
+      <styleUrl>#poly-558B2F-2201-79</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/07-Zone-4-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/07-Zone-4.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.
+
+She opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.
+
+She describes the Brink as Georgian and references the fact that King George has just died. 
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1567804,52.6650212,0
+              0.1567564,52.6649073,0
+              0.157451,52.6649512,0
+              0.157451,52.6650847,0
+              0.1574564,52.6652017,0
+              0.1567483,52.6651237,0
+              0.1567804,52.6650212,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 5</name>
+      <description><![CDATA[mp3: /mp3-128k/08-Zone-5-128k.mp3<br>webm: /webm-96k/08-Zone-5.webm<br>description: Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.<br><br>Describes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.<br><br>Pipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.<br>]]></description>
+      <styleUrl>#poly-01579B-2201-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/08-Zone-5-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/08-Zone-5.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.
+
+Describes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.
+
+Pipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.156511,52.6652065,0
+              0.1561697,52.6652236,0
+              0.1557103,52.6651431,0
+              0.1551384,52.6650057,0
+              0.1547113,52.6648747,0
+              0.1540649,52.6646046,0
+              0.154274,52.6642841,0
+              0.1547595,52.6644387,0
+              0.1552557,52.6646144,0
+              0.1559208,52.6648161,0
+              0.1565485,52.6648975,0
+              0.156511,52.6652065,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 6</name>
+      <description><![CDATA[mp3: /mp3-128k/09-Zone-6-128k.mp3<br>webm: /webm-96k/09-Zone-6.webm<br>description: Pipp sees footprints along the Brink. <br>Notes that since the black shuck escaped the power has drained.<br><br>Pipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.<br>]]></description>
+      <styleUrl>#poly-0F9D58-2201-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/09-Zone-6-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/09-Zone-6.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Pipp sees footprints along the Brink. 
+Notes that since the black shuck escaped the power has drained.
+
+Pipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.
+</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1528738,52.6642485,0
+              0.1520156,52.6639016,0
+              0.1510876,52.6633619,0
+              0.151471,52.6631406,0
+              0.1521819,52.6635995,0
+              0.1531716,52.6640029,0
+              0.1528738,52.6642485,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 7</name>
+      <description><![CDATA[mp3: /mp3-128k/11-Zone-7-128k.mp3<br>webm: /webm-96k/11-Zone-7.webm<br>description: Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.]]></description>
+      <styleUrl>#poly-F57C00-2201-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/11-Zone-7-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/11-Zone-7.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1502761,52.6626754,0
+              0.1503647,52.6622671,0
+              0.1505752,52.6619726,0
+              0.1506356,52.6619142,0
+              0.1506919,52.6618587,0
+              0.1511317,52.6619254,0
+              0.150834,52.6623631,0
+              0.1508126,52.6627828,0
+              0.1502761,52.6626754,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Story Zone - 8</name>
+      <description><![CDATA[mp3: /mp3-128k/12-Zone-8-128k.mp3<br>webm: /webm-96k/12-Zone-8.webm<br>description: Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.]]></description>
+      <styleUrl>#poly-FFEA00-2101-82</styleUrl>
+      <ExtendedData>
+        <Data name="mp3">
+          <value>/mp3-128k/12-Zone-8-128k.mp3</value>
+        </Data>
+        <Data name="webm">
+          <value>/webm-96k/12-Zone-8.webm</value>
+        </Data>
+        <Data name="description">
+          <value>Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              0.1508608,52.6617074,0
+              0.1510217,52.661374,0
+              0.1498578,52.6602954,0
+              0.150252,52.660166,0
+              0.1514214,52.6612032,0
+              0.1514469,52.6615627,0
+              0.1513033,52.661836,0
+              0.1508608,52.6617074,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

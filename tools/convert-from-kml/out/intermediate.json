@@ -8,6 +8,1119 @@
                 "coordinates": [
                     [
                         0.1612329,
+                        52.6639703,
+                        0
+                    ],
+                    [
+                        0.160962,
+                        52.6640468,
+                        0
+                    ],
+                    [
+                        0.160895,
+                        52.6640533,
+                        0
+                    ],
+                    [
+                        0.1607716,
+                        52.6639427,
+                        0
+                    ],
+                    [
+                        0.160557,
+                        52.6638971,
+                        0
+                    ],
+                    [
+                        0.1603934,
+                        52.6638857,
+                        0
+                    ],
+                    [
+                        0.1602405,
+                        52.6639069,
+                        0
+                    ],
+                    [
+                        0.1599348,
+                        52.6640045,
+                        0
+                    ],
+                    [
+                        0.1597698,
+                        52.6641371,
+                        0
+                    ],
+                    [
+                        0.1596987,
+                        52.6642452,
+                        0
+                    ],
+                    [
+                        0.1596679,
+                        52.6643217,
+                        0
+                    ],
+                    [
+                        0.1596397,
+                        52.6643428,
+                        0
+                    ],
+                    [
+                        0.1593447,
+                        52.6644323,
+                        0
+                    ],
+                    [
+                        0.159342,
+                        52.6644648,
+                        0
+                    ],
+                    [
+                        0.1591676,
+                        52.6645153,
+                        0
+                    ],
+                    [
+                        0.1590443,
+                        52.6645689,
+                        0
+                    ],
+                    [
+                        0.1587144,
+                        52.66466,
+                        0
+                    ],
+                    [
+                        0.1585266,
+                        52.6646747,
+                        0
+                    ],
+                    [
+                        0.1583228,
+                        52.6646828,
+                        0
+                    ],
+                    [
+                        0.1581725,
+                        52.6647219,
+                        0
+                    ],
+                    [
+                        0.1582155,
+                        52.6647723,
+                        0
+                    ],
+                    [
+                        0.1583549,
+                        52.6648032,
+                        0
+                    ],
+                    [
+                        0.1584247,
+                        52.6647772,
+                        0
+                    ],
+                    [
+                        0.1584595,
+                        52.6647381,
+                        0
+                    ],
+                    [
+                        0.1584864,
+                        52.6646877,
+                        0
+                    ],
+                    [
+                        0.1583254,
+                        52.6646975,
+                        0
+                    ],
+                    [
+                        0.1582208,
+                        52.6647349,
+                        0
+                    ],
+                    [
+                        0.1581806,
+                        52.6647755,
+                        0
+                    ],
+                    [
+                        0.1580867,
+                        52.6647463,
+                        0
+                    ],
+                    [
+                        0.1580143,
+                        52.6648227,
+                        0
+                    ],
+                    [
+                        0.1578534,
+                        52.6647983,
+                        0
+                    ],
+                    [
+                        0.1576978,
+                        52.665026,
+                        0
+                    ],
+                    [
+                        0.1576817,
+                        52.6650635,
+                        0
+                    ],
+                    [
+                        0.1574484,
+                        52.6650602,
+                        0
+                    ],
+                    [
+                        0.157451,
+                        52.6651106,
+                        0
+                    ],
+                    [
+                        0.1573008,
+                        52.6651025,
+                        0
+                    ],
+                    [
+                        0.1571533,
+                        52.6650895,
+                        0
+                    ],
+                    [
+                        0.1567644,
+                        52.6650814,
+                        0
+                    ],
+                    [
+                        0.1565203,
+                        52.6650716,
+                        0
+                    ],
+                    [
+                        0.1562575,
+                        52.6650667,
+                        0
+                    ],
+                    [
+                        0.1559946,
+                        52.6650293,
+                        0
+                    ],
+                    [
+                        0.1555896,
+                        52.6649154,
+                        0
+                    ],
+                    [
+                        0.1552141,
+                        52.6647869,
+                        0
+                    ],
+                    [
+                        0.1549405,
+                        52.6646763,
+                        0
+                    ],
+                    [
+                        0.1547769,
+                        52.6646096,
+                        0
+                    ],
+                    [
+                        0.1545408,
+                        52.6645364,
+                        0
+                    ],
+                    [
+                        0.1542753,
+                        52.6644535,
+                        0
+                    ],
+                    [
+                        0.1541787,
+                        52.6644339,
+                        0
+                    ],
+                    [
+                        0.1537925,
+                        52.6643461,
+                        0
+                    ],
+                    [
+                        0.1533794,
+                        52.6642338,
+                        0
+                    ],
+                    [
+                        0.1531031,
+                        52.6641964,
+                        0
+                    ],
+                    [
+                        0.1530522,
+                        52.6642086,
+                        0
+                    ],
+                    [
+                        0.1529047,
+                        52.6641883,
+                        0
+                    ],
+                    [
+                        0.1528591,
+                        52.664146,
+                        0
+                    ],
+                    [
+                        0.1528242,
+                        52.6640614,
+                        0
+                    ],
+                    [
+                        0.1524943,
+                        52.6639199,
+                        0
+                    ],
+                    [
+                        0.1522717,
+                        52.6638142,
+                        0
+                    ],
+                    [
+                        0.1521322,
+                        52.6637523,
+                        0
+                    ],
+                    [
+                        0.1520008,
+                        52.6636873,
+                        0
+                    ],
+                    [
+                        0.1518828,
+                        52.6636271,
+                        0
+                    ],
+                    [
+                        0.1517567,
+                        52.6635539,
+                        0
+                    ],
+                    [
+                        0.1516065,
+                        52.6634481,
+                        0
+                    ],
+                    [
+                        0.1514697,
+                        52.6633619,
+                        0
+                    ],
+                    [
+                        0.151349,
+                        52.6632871,
+                        0
+                    ],
+                    [
+                        0.1512873,
+                        52.663248,
+                        0
+                    ],
+                    [
+                        0.1510969,
+                        52.6631667,
+                        0
+                    ],
+                    [
+                        0.1509869,
+                        52.6631,
+                        0
+                    ],
+                    [
+                        0.1505792,
+                        52.6628039,
+                        0
+                    ],
+                    [
+                        0.1505953,
+                        52.6627421,
+                        0
+                    ],
+                    [
+                        0.1506141,
+                        52.662586,
+                        0
+                    ],
+                    [
+                        0.1506221,
+                        52.6623257,
+                        0
+                    ],
+                    [
+                        0.1506919,
+                        52.6621874,
+                        0
+                    ],
+                    [
+                        0.1507214,
+                        52.6621191,
+                        0
+                    ],
+                    [
+                        0.1508367,
+                        52.6619808,
+                        0
+                    ],
+                    [
+                        0.1510486,
+                        52.6617628,
+                        0
+                    ],
+                    [
+                        0.1511505,
+                        52.6616815,
+                        0
+                    ],
+                    [
+                        0.1511988,
+                        52.6615692,
+                        0
+                    ],
+                    [
+                        0.1512176,
+                        52.661457,
+                        0
+                    ],
+                    [
+                        0.1512229,
+                        52.6614016,
+                        0
+                    ],
+                    [
+                        0.1511304,
+                        52.6612104,
+                        0
+                    ],
+                    [
+                        0.1510191,
+                        52.6610974,
+                        0
+                    ],
+                    [
+                        0.1508367,
+                        52.6609087,
+                        0
+                    ],
+                    [
+                        0.1506865,
+                        52.6607558,
+                        0
+                    ],
+                    [
+                        0.1505685,
+                        52.6606622,
+                        0
+                    ],
+                    [
+                        0.1503834,
+                        52.6605166,
+                        0
+                    ],
+                    [
+                        0.1501581,
+                        52.6603377,
+                        0
+                    ],
+                    [
+                        0.1500334,
+                        52.6602433,
+                        0
+                    ],
+                    [
+                        0.1499328,
+                        52.6602498,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "route",
+                "styleUrl": "#line-000000-18050",
+                "styleHash": "-d2073d4",
+                "styleMapHash": {
+                    "normal": "#line-000000-18050-normal",
+                    "highlight": "#line-000000-18050-highlight"
+                },
+                "description": "This is basically the entire walk used to snap user's GPS position to nearest point on the trail",
+                "stroke": "#000000",
+                "stroke-opacity": 1,
+                "stroke-width": 18.05
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1610425,
+                            52.6638849,
+                            0
+                        ],
+                        [
+                            0.1612973,
+                            52.6637832,
+                            0
+                        ],
+                        [
+                            0.1615227,
+                            52.6640451,
+                            0
+                        ],
+                        [
+                            0.1612169,
+                            52.664093,
+                            0
+                        ],
+                        [
+                            0.1611311,
+                            52.6639898,
+                            0
+                        ],
+                        [
+                            0.1610425,
+                            52.6638849,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - INTRO",
+                "styleUrl": "#poly-0F9D58-2101-82",
+                "styleHash": "-55ff26ac",
+                "styleMapHash": {
+                    "normal": "#poly-0F9D58-2101-82-normal",
+                    "highlight": "#poly-0F9D58-2101-82-highlight"
+                },
+                "description": "Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. ",
+                "stroke": "#0f9d58",
+                "stroke-opacity": 1,
+                "stroke-width": 2.101,
+                "fill": "#0f9d58",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "Introduction",
+                "type": "static",
+                "mp3": "/mp3-128k/zone-00.mp3",
+                "webm": "/webm-96k/zone-00.webm",
+                "gx_media_links": "https://www.youtube.com/embed/g0FIfHM6nbA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1607019,
+                            52.6642175,
+                            0
+                        ],
+                        [
+                            0.1605101,
+                            52.6640141,
+                            0
+                        ],
+                        [
+                            0.1601171,
+                            52.664106,
+                            0
+                        ],
+                        [
+                            0.1599482,
+                            52.6642404,
+                            0
+                        ],
+                        [
+                            0.1598946,
+                            52.6644095,
+                            0
+                        ],
+                        [
+                            0.1592803,
+                            52.6646145,
+                            0
+                        ],
+                        [
+                            0.1590442,
+                            52.6643632,
+                            0
+                        ],
+                        [
+                            0.1593661,
+                            52.6642208,
+                            0
+                        ],
+                        [
+                            0.159637,
+                            52.6639442,
+                            0
+                        ],
+                        [
+                            0.1598476,
+                            52.6638068,
+                            0
+                        ],
+                        [
+                            0.1601064,
+                            52.6637344,
+                            0
+                        ],
+                        [
+                            0.1604471,
+                            52.6636807,
+                            0
+                        ],
+                        [
+                            0.1608815,
+                            52.6639735,
+                            0
+                        ],
+                        [
+                            0.1609426,
+                            52.6639552,
+                            0
+                        ],
+                        [
+                            0.1610761,
+                            52.6640995,
+                            0
+                        ],
+                        [
+                            0.1607019,
+                            52.6642175,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 1",
+                "styleUrl": "#poly-F57C00-2301-79",
+                "styleHash": "1aceffb2",
+                "styleMapHash": {
+                    "normal": "#poly-F57C00-2301-79-normal",
+                    "highlight": "#poly-F57C00-2301-79-highlight"
+                },
+                "description": "Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. \n\nPower suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.",
+                "stroke": "#f57c00",
+                "stroke-opacity": 1,
+                "stroke-width": 2.301,
+                "fill": "#f57c00",
+                "fill-opacity": 0.30980392156862746,
+                "displayName": "The Crescent",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-01.mp3",
+                "webm": "/webm-96k/zone-01.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1587679,
+                            52.6645901,
+                            0
+                        ],
+                        [
+                            0.1585293,
+                            52.6649675,
+                            0
+                        ],
+                        [
+                            0.1579097,
+                            52.6646926,
+                            0
+                        ],
+                        [
+                            0.1581135,
+                            52.6646129,
+                            0
+                        ],
+                        [
+                            0.1584488,
+                            52.66459,
+                            0
+                        ],
+                        [
+                            0.1587679,
+                            52.6645901,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 2",
+                "styleUrl": "#poly-FFEA00-2301-82",
+                "styleHash": "-1eeff588",
+                "styleMapHash": {
+                    "normal": "#poly-FFEA00-2301-82-normal",
+                    "highlight": "#poly-FFEA00-2301-82-highlight"
+                },
+                "description": "Description of monument and Wisbech.",
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 2.301,
+                "fill": "#ffea00",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "The Memorial",
+                "type": "static",
+                "mp3": "/mp3-128k/zone-02.mp3",
+                "webm": "/webm-96k/zone-02.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1577033,
+                            52.6647576,
+                            0
+                        ],
+                        [
+                            0.1581108,
+                            52.6648439,
+                            0
+                        ],
+                        [
+                            0.1578641,
+                            52.6651155,
+                            0
+                        ],
+                        [
+                            0.1575744,
+                            52.6649772,
+                            0
+                        ],
+                        [
+                            0.1577033,
+                            52.6647576,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 3",
+                "styleUrl": "#poly-C2185B-2301-82",
+                "styleHash": "-1b970bb3",
+                "styleMapHash": {
+                    "normal": "#poly-C2185B-2301-82-normal",
+                    "highlight": "#poly-C2185B-2301-82-highlight"
+                },
+                "description": "We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. \n\nThe river is glowing. You can see all the power draining away.\n",
+                "stroke": "#c2185b",
+                "stroke-opacity": 1,
+                "stroke-width": 2.301,
+                "fill": "#c2185b",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "The Brink of The Future",
+                "type": "static",
+                "mp3": "/mp3-128k/zone-03.mp3",
+                "webm": "/webm-96k/zone-03.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1567804,
+                            52.6650212,
+                            0
+                        ],
+                        [
+                            0.1567564,
+                            52.6649073,
+                            0
+                        ],
+                        [
+                            0.157451,
+                            52.6649512,
+                            0
+                        ],
+                        [
+                            0.157451,
+                            52.6650847,
+                            0
+                        ],
+                        [
+                            0.1574564,
+                            52.6652017,
+                            0
+                        ],
+                        [
+                            0.1567483,
+                            52.6651237,
+                            0
+                        ],
+                        [
+                            0.1567804,
+                            52.6650212,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 4",
+                "styleUrl": "#poly-558B2F-2201-79",
+                "styleHash": "-25264563",
+                "styleMapHash": {
+                    "normal": "#poly-558B2F-2201-79-normal",
+                    "highlight": "#poly-558B2F-2201-79-highlight"
+                },
+                "description": "Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.\n\nShe opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.\n\nShe describes the Brink as Georgian and references the fact that King George has just died. \n",
+                "stroke": "#558b2f",
+                "stroke-opacity": 1,
+                "stroke-width": 2.201,
+                "fill": "#558b2f",
+                "fill-opacity": 0.30980392156862746,
+                "displayName": "Data Banks",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-04.mp3",
+                "webm": "/webm-96k/zone-04.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.156511,
+                            52.6652065,
+                            0
+                        ],
+                        [
+                            0.1561697,
+                            52.6652236,
+                            0
+                        ],
+                        [
+                            0.1557103,
+                            52.6651431,
+                            0
+                        ],
+                        [
+                            0.1551384,
+                            52.6650057,
+                            0
+                        ],
+                        [
+                            0.1547113,
+                            52.6648747,
+                            0
+                        ],
+                        [
+                            0.1533903,
+                            52.6644233,
+                            0
+                        ],
+                        [
+                            0.1530939,
+                            52.6642939,
+                            0
+                        ],
+                        [
+                            0.1533379,
+                            52.6640222,
+                            0
+                        ],
+                        [
+                            0.1540608,
+                            52.6642215,
+                            0
+                        ],
+                        [
+                            0.1547595,
+                            52.6644387,
+                            0
+                        ],
+                        [
+                            0.1552557,
+                            52.6646144,
+                            0
+                        ],
+                        [
+                            0.1559208,
+                            52.6648161,
+                            0
+                        ],
+                        [
+                            0.1565485,
+                            52.6648975,
+                            0
+                        ],
+                        [
+                            0.156511,
+                            52.6652065,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 5",
+                "styleUrl": "#poly-01579B-2201-82",
+                "styleHash": "5accaa0a",
+                "styleMapHash": {
+                    "normal": "#poly-01579B-2201-82-normal",
+                    "highlight": "#poly-01579B-2201-82-highlight"
+                },
+                "description": "Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.\n\nDescribes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.\n\nPipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.",
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 2.201,
+                "fill": "#01579b",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "The Institute of Discovery",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-05.mp3",
+                "webm": "/webm-96k/zone-05.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1528738,
+                            52.6642485,
+                            0
+                        ],
+                        [
+                            0.1520156,
+                            52.6639016,
+                            0
+                        ],
+                        [
+                            0.1510876,
+                            52.6633619,
+                            0
+                        ],
+                        [
+                            0.151471,
+                            52.6631406,
+                            0
+                        ],
+                        [
+                            0.1521819,
+                            52.6635995,
+                            0
+                        ],
+                        [
+                            0.1531716,
+                            52.6640029,
+                            0
+                        ],
+                        [
+                            0.1528738,
+                            52.6642485,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 6",
+                "styleUrl": "#poly-0F9D58-2201-82",
+                "styleHash": "7215ed52",
+                "styleMapHash": {
+                    "normal": "#poly-0F9D58-2201-82-normal",
+                    "highlight": "#poly-0F9D58-2201-82-highlight"
+                },
+                "description": "Pipp sees footprints along the Brink. \nNotes that since the black shuck escaped the power has drained.\n\nPipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.\n",
+                "stroke": "#0f9d58",
+                "stroke-opacity": 1,
+                "stroke-width": 2.201,
+                "fill": "#0f9d58",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "Footprints or pawprints",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-06.mp3",
+                "webm": "/webm-96k/zone-06.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1502761,
+                            52.6626754,
+                            0
+                        ],
+                        [
+                            0.1503647,
+                            52.6622671,
+                            0
+                        ],
+                        [
+                            0.1505752,
+                            52.6619726,
+                            0
+                        ],
+                        [
+                            0.1506356,
+                            52.6619142,
+                            0
+                        ],
+                        [
+                            0.1506919,
+                            52.6618587,
+                            0
+                        ],
+                        [
+                            0.1511317,
+                            52.6619254,
+                            0
+                        ],
+                        [
+                            0.150834,
+                            52.6623631,
+                            0
+                        ],
+                        [
+                            0.1508126,
+                            52.6627828,
+                            0
+                        ],
+                        [
+                            0.1502761,
+                            52.6626754,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 7",
+                "styleUrl": "#poly-F57C00-2201-82",
+                "styleHash": "-59386f09",
+                "styleMapHash": {
+                    "normal": "#poly-F57C00-2201-82-normal",
+                    "highlight": "#poly-F57C00-2201-82-highlight"
+                },
+                "description": "Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.",
+                "stroke": "#f57c00",
+                "stroke-opacity": 1,
+                "stroke-width": 2.201,
+                "fill": "#f57c00",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "The black dog",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-07.mp3",
+                "webm": "/webm-96k/zone-07.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            0.1508608,
+                            52.6617074,
+                            0
+                        ],
+                        [
+                            0.1510217,
+                            52.661374,
+                            0
+                        ],
+                        [
+                            0.1498578,
+                            52.6602954,
+                            0
+                        ],
+                        [
+                            0.150252,
+                            52.660166,
+                            0
+                        ],
+                        [
+                            0.1514214,
+                            52.6612032,
+                            0
+                        ],
+                        [
+                            0.1514469,
+                            52.6615627,
+                            0
+                        ],
+                        [
+                            0.1513033,
+                            52.661836,
+                            0
+                        ],
+                        [
+                            0.1508608,
+                            52.6617074,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 8",
+                "styleUrl": "#poly-FFEA00-2101-82",
+                "styleHash": "50e5e27c",
+                "styleMapHash": {
+                    "normal": "#poly-FFEA00-2101-82-normal",
+                    "highlight": "#poly-FFEA00-2101-82-highlight"
+                },
+                "description": "Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.",
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 2.101,
+                "fill": "#ffea00",
+                "fill-opacity": 0.3215686274509804,
+                "displayName": "Conclusion",
+                "type": "linear",
+                "mp3": "/mp3-128k/zone-08.mp3",
+                "webm": "/webm-96k/zone-08.webm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.1612329,
                         52.663967,
                         0
                     ],
@@ -19,7 +1132,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-0-path",
+                "name": "Story Zone - INTRO",
                 "styleUrl": "#line-0097A7-9331-nodesc",
                 "styleHash": "-40006707",
                 "styleMapHash": {
@@ -104,7 +1217,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-1-path",
+                "name": "Story Zone - 1",
                 "styleUrl": "#line-F57C00-9331-nodesc",
                 "styleHash": "14b02da7",
                 "styleMapHash": {
@@ -134,7 +1247,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-2-path",
+                "name": "Story Zone - 2",
                 "styleUrl": "#line-FFEA00-9138-nodesc",
                 "styleHash": "-3a9bca1",
                 "styleMapHash": {
@@ -164,7 +1277,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-3-path",
+                "name": "Story Zone - 3",
                 "styleUrl": "#line-C2185B-8944-nodesc",
                 "styleHash": "-70fd2af9",
                 "styleMapHash": {
@@ -199,7 +1312,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-4-path",
+                "name": "Story Zone - 4",
                 "styleUrl": "#line-558B2F-9138-nodesc",
                 "styleHash": "-14c05e9d",
                 "styleMapHash": {
@@ -264,7 +1377,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone5-path",
+                "name": "Story Zone - 5",
                 "styleUrl": "#line-01579B-9525-nodesc",
                 "styleHash": "7786349b",
                 "styleMapHash": {
@@ -319,7 +1432,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-6-path",
+                "name": "Story Zone - 6",
                 "styleUrl": "#line-0F9D58-8944-nodesc",
                 "styleHash": "-538132f7",
                 "styleMapHash": {
@@ -369,7 +1482,7 @@
                 ]
             },
             "properties": {
-                "name": "story-zone-7-path",
+                "name": "Story Zone - 7",
                 "styleUrl": "#line-F57C00-9525-nodesc",
                 "styleHash": "-78e49627",
                 "styleMapHash": {
@@ -407,19 +1520,29 @@
                         0
                     ],
                     [
-                        0.1511425,
-                        52.6612405,
+                        0.1511304,
+                        52.6612071,
                         0
                     ],
                     [
-                        0.1510942,
-                        52.6611901,
+                        0.1507978,
+                        52.6608704,
+                        0
+                    ],
+                    [
+                        0.1505685,
+                        52.6606589,
+                        0
+                    ],
+                    [
+                        0.1500334,
+                        52.66024,
                         0
                     ]
                 ]
             },
             "properties": {
-                "name": "story-zone-8-path",
+                "name": "Story Zone - 8",
                 "styleUrl": "#line-FFEA00-9138-nodesc",
                 "styleHash": "-3a9bca1",
                 "styleMapHash": {
@@ -429,6 +1552,782 @@
                 "stroke": "#ffea00",
                 "stroke-opacity": 1,
                 "stroke-width": 9.138
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.1356661,
+                        52.1904896,
+                        0
+                    ],
+                    [
+                        0.1368517,
+                        52.1904961,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 9",
+                "styleUrl": "#line-000000-1200-nodesc",
+                "styleHash": "-18b10f11",
+                "styleMapHash": {
+                    "normal": "#line-000000-1200-nodesc-normal",
+                    "highlight": "#line-000000-1200-nodesc-highlight"
+                },
+                "stroke": "#000000",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.1367337,
+                        52.1910322,
+                        0
+                    ],
+                    [
+                        0.1353925,
+                        52.1909401,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Story Zone - 10",
+                "styleUrl": "#line-000000-1200-nodesc",
+                "styleHash": "-18b10f11",
+                "styleMapHash": {
+                    "normal": "#line-000000-1200-nodesc-normal",
+                    "highlight": "#line-000000-1200-nodesc-highlight"
+                },
+                "stroke": "#000000",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1612598,
+                    52.664033,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "TEST",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "You are about to enter Wisbech in 100 years time. Please read the following instructions before taking the journey into The Brink of the Future.\n\nPlease use headphones to gain the full effect of the story. Please be aware that there are road crossings ahead through the town. Cross safely at all times. The audio is designed to match a clear route marked on your map.\n\nEach part of the story will unfold as you walk into the story zones, as long as you have GPS activated on your phone. If you’re not sure about activation click here for a guide on how to set up LOCATION services on an Android or iOS (iPhone) device.\n\nIf you do not have a smart phone you can listen to the MP3 files by following this link - \n",
+                "zone": "Story Zone - INTRO",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/marker-pip.html",
+                "i360Src": "augments/marker-pip.html",
+                "imageSrc": "augments/marker-pip.html",
+                "launchAt": "",
+                "launchType": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1583469,
+                    52.6647494,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 1",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Clarkson Memorial\nhttps://en.wikipedia.org/wiki/Clarkson_Memorial - Thomas Clarkson - a central figure in the campaign against the slave trade in \nthe British empire, and a former native of Wisbech.\n",
+                "zone": "Story Zone - 2",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/owlAugment.html",
+                "i360Src": "augments/owlAugment.html",
+                "imageSrc": "augments/owlAugment.html",
+                "launchAt": "0:36",
+                "launchType": "audio",
+                "gx_media_links": "https://lh4.googleusercontent.com/4Yo31uRhSUQwLg03sIksSyVLaXyKUF5Ow0HomMHQ92-Cj9nN1FM7qvsp7MO31e-j7BmVnzCuNUBQ9TCg890wwki3GH13Tc3nZRqBoDRx7pzreTWgUgIPAzcPictdsa5lmw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1577729,
+                    52.6649121,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 2",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Brink of the Future - view over river.",
+                "zone": "Story Zone - 3",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/bridge360.html",
+                "i360Src": "augments/bridge360.html",
+                "imageSrc": "augments/bridge360.html",
+                "launchAt": "0:15",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1549593,
+                    52.6647283,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 3",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Across the river - The Institute of Discovery",
+                "zone": "Story Zone - 5",
+                "type": "augment",
+                "variant": "imageLoader",
+                "augmentSrc": "augments/images/Institute-small.jpg",
+                "i360Src": "augments/images/Institute-small.jpg",
+                "imageSrc": "augments/images/Institute-small.jpg",
+                "launchAt": "1:24",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1528564,
+                    52.6641752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 4",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "view through the floor (Pipp is talking about taking a photo paw prints - maybe we need some here)",
+                "zone": "Story Zone - 6",
+                "type": "augment",
+                "variant": "imageLoader",
+                "augmentSrc": "augments/images/cables-small.jpg",
+                "i360Src": "augments/images/cables-small.jpg",
+                "imageSrc": "augments/images/cables-small.jpg",
+                "launchAt": "0:18",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1511827,
+                    52.663274,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 5",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Second Tower - motto enhanced: Be not weary in well doing. ",
+                "zone": "Story Zone - 6",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/tower.html",
+                "i360Src": "augments/tower.html",
+                "imageSrc": "augments/tower.html",
+                "launchAt": "4:33",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.150842,
+                    52.6618311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 6",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Elgood's Courtyard - damage to wall from lightning strike. Black Shuck sighting.",
+                "zone": "Story Zone - 7",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/lightning2.html",
+                "i360Src": "augments/lightning2.html",
+                "imageSrc": "augments/lightning2.html",
+                "launchAt": "2:33",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1500884,
+                    52.6603588,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Augment - 7",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "View back up river of Power Invest Plasma Plant up and running again.",
+                "zone": "Story Zone - 8",
+                "type": "augment",
+                "variant": "iframe",
+                "augmentSrc": "augments/end360-2.html",
+                "i360Src": "augments/end360-2.html",
+                "imageSrc": "augments/end360-2.html",
+                "launchAt": "3:45",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1612705,
+                    52.6639565,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "THE START",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "The Brink is a digital media project developed with Wisbech and environs artists and creative industries. The outcome is an augmented reality series of interlinking stories to be experienced by visitors to the North Brink area of Wisbech. This is on the north bank of the River Nene, an area that contains historic buildings and has good pedestrian access.\n \nNOTES - congregation point outside the museum.\nAt this point we get people briefed and technically sorted (iPhone, Android, mp3, curated, self initiated)",
+                "zone": "Story Zone - INTRO",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "0:00",
+                "launchType": "audio",
+                "gx_media_links": "https://lh3.googleusercontent.com/fDV6Jbm6ZECTGqJkNBlk-Czh-FXEqko5c_-uQS3mSq3ABBacsJybAWpJL9sxwHY8nDYrjGMZAnfrqHunH4MYtmurVGKkFghnP0H03F1XrRZCPhQeSNfIioabK1WItaNY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1591034,
+                    52.6644843,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 1",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Turn left and walk towards the Post Office sign. Look right, and cross carefully to be in front of Evisons.",
+                "zone": "Story Zone - 1",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "0:50",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1590443,
+                    52.6645966,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 2",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Turn towards the Clarkson Memorial, and cross carefully up to the steps.",
+                "zone": "Story Zone - 1",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.158127,
+                    52.664756,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 3",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Cross over the two roads that will take you to the Bridge and then cross over to the other side to face up the North Brink, making sure to use the pedestrian crossings and to take care of traffic, which is particularly heavy here.",
+                "zone": "Story Zone - 2",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1576978,
+                    52.6650227,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 4",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Now walk across the Bridge towards the North Brink. Make your way to Lloyds National Provincial Bank, taking care of any traffic. Cross the road to the benches and face Lloyds.",
+                "zone": "Story Zone - 3",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1568932,
+                    52.6650585,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 5",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Walk across back to the other side of the road, and onto the pavement. Follow the path until further instruction.",
+                "zone": "Story Zone - 4",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "0:15",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1531085,
+                    52.6642468,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 6",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Cross the pedestrian crossing carefully and wait on the other side until further instruction.",
+                "zone": "Story Zone - 5",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1528376,
+                    52.6641574,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 7",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Continue walking along the Brink to meet Caleb, and look up at the Tower.",
+                "zone": "Story Zone - 6",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "0:00",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1511036,
+                    52.6632205,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 8",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Continue walking down the road until you meet the intersection. Cross carefully and follow the path continuing on the North Brink.",
+                "zone": "Story Zone - 6",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1509574,
+                    52.6618294,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Instruction - 9",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "Continue walking.",
+                "zone": "Story Zone - 7",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1509172,
+                    52.6611576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "THE END (Instruction - 10)",
+                "styleUrl": "#icon-1899-DB4436",
+                "styleHash": "2f0affcb",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-normal",
+                    "highlight": "#icon-1899-DB4436-highlight"
+                },
+                "description": "You have reached the end of the story, we hope you enjoyed the Brink of the Future, rest a while on the benches if you need to.\n\nPlease complete the survey about the project by following the link. On your way back, listen to the Wisbech people’s memories and stories by clicking on the memory link on the navigation bar above. \n\nThank you for taking the time to do this, please tell your friends and family to come and listen to the story. If you have an elderly or infirm relative, the story can be listened to at home by following the link above.",
+                "zone": "Story Zone - 8",
+                "type": "instruction",
+                "source": "#",
+                "launchAt": "end",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1607421,
+                    52.6640923,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castle",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 1",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "0:33",
+                "stopAt": "0:40",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1600984,
+                    52.6638743,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ghost Passage",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 1",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "0:49",
+                "stopAt": "0:55",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1577675,
+                    52.6649117,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "View of the Nene",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 2",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "1:24",
+                "stopAt": "1:35",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1574792,
+                    52.6650557,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "benches opposite Lloyds",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 3",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "1:28",
+                "stopAt": "1:26",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1553616,
+                    52.6642533,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Institute of Discovery",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 5",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "1:03",
+                "stopAt": "2:19",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1529047,
+                    52.6641883,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "intersection with chapel road",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 5",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "5:12",
+                "stopAt": "5:20",
+                "launchType": "audio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.1512283,
+                    52.6632578,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "The tower",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "7183f347",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "",
+                "type": "sight",
+                "zone": "Story Zone - 6",
+                "colour": "red",
+                "heartbeat": "1",
+                "launchAt": "1:21",
+                "stopAt": "4:30",
+                "launchType": "audio"
             }
         }
     ]

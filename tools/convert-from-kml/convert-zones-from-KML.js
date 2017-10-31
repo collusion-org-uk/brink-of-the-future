@@ -5,7 +5,7 @@ var tj = require('@mapbox/togeojson'), fs = require('fs'), DOMParser = require('
 
     
 
-var kml = new DOMParser().parseFromString(fs.readFileSync('in/Brink-Production.kml', 'utf8'));
+var kml = new DOMParser().parseFromString(fs.readFileSync('in/story-zones.kml', 'utf8'));
 
 var obj = tj.kml(kml);
 
@@ -37,7 +37,7 @@ obj.features.forEach(function(feature) {
 		zoneData.push({
 		points : points,
 		id : feature.properties.name,
-		audio : "sounds/"+feature.properties.description.split("<br>")[0],
+		audio : "sounds"+feature.properties.webm,
 		description : feature.properties.description.split("<br>")[1]
 		});
 		

@@ -1,855 +1,1224 @@
-[
+// use audioZones array to store audio zone data objects
+// points - the latitude and longitude of points defining zones
+// id - internal identifier
+// audio - the associated zone audio file, currently a single mp3 but may need to be an array of file formats
+// description - zone description intended to be rendered to the user interface
+var audioZones = [
     {
-        "points": [
+        "id": "Story Zone - INTRO",
+        "audio": "sounds/webm-96k/01-Intro.webm,sounds/mp3-128k/01-Intro-128k.mp3",
+        "description": "Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. ",
+        "howl": null,
+        "polygon": [
             [
-                52.6638515,
-                0.1612437
+                52.6639036,
+                0.1609138
             ],
             [
-                52.6639996,
-                0.1613671
+                52.6637832,
+                0.1612973
             ],
             [
-                52.664063,
-                0.1611632
+                52.6640451,
+                0.1615227
             ],
             [
-                52.6639149,
-                0.1610532
+                52.6641638,
+                0.1610774
             ],
             [
-                52.6638515,
-                0.1612437
+                52.6639036,
+                0.1609138
             ]
         ],
-        "id": "Introduction",
-        "audio": "sounds/introduction-comp.mp3",
-        "description": "At this point the clients set up their devices and find out how it works."
+        "path": [
+            [
+                52.663967,
+                0.1612329
+            ],
+            [
+                52.664037,
+                0.1609996
+            ]
+        ]
     },
     {
-        "points": [
+        "id": "Story Zone - 1",
+        "audio": "sounds/webm-96k/03-Zone-1.webm,sounds/mp3-128k/03-Zone-1-128k.mp3",
+        "description": "Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. \n\nPower suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.\n",
+        "howl": null,
+        "polygon": [
             [
-                52.6641288,
-                0.1609487
+                52.6642175,
+                0.1607019
             ],
             [
-                52.6640272,
-                0.1601869
+                52.6640442,
+                0.1604202
             ],
             [
-                52.6644274,
-                0.1596933
+                52.664106,
+                0.1601171
             ],
             [
-                52.6645836,
-                0.1591998
+                52.6642404,
+                0.1599482
             ],
             [
-                52.664385,
-                0.159047
+                52.6644095,
+                0.1598946
             ],
             [
-                52.664242,
-                0.1595431
+                52.6646145,
+                0.1592803
             ],
             [
-                52.6641427,
-                0.1596075
+                52.6643632,
+                0.1590442
             ],
             [
-                52.6639638,
-                0.1597845
+                52.6642208,
+                0.1593661
             ],
             [
-                52.6638207,
-                0.1600743
+                52.6639442,
+                0.159637
             ],
             [
-                52.6638759,
-                0.1609915
+                52.6638068,
+                0.1598476
             ],
             [
-                52.6640582,
-                0.1611203
+                52.6637344,
+                0.1601064
             ],
             [
-                52.6641288,
-                0.1609487
+                52.6636807,
+                0.1604471
+            ],
+            [
+                52.6638873,
+                0.1608279
+            ],
+            [
+                52.6641174,
+                0.1609876
+            ],
+            [
+                52.6642175,
+                0.1607019
             ]
         ],
-        "id": "Storyzone 1 - the short walk to the memorial",
-        "audio": "sounds/StoryZone1.mp3",
-        "description": "The Brink story commences, we find out where we are, what year it is and who the characters are."
+        "path": [
+            [
+                52.66405,
+                0.160895
+            ],
+            [
+                52.6639394,
+                0.1607716
+            ],
+            [
+                52.6638938,
+                0.160557
+            ],
+            [
+                52.6638824,
+                0.1603934
+            ],
+            [
+                52.6639036,
+                0.1602405
+            ],
+            [
+                52.6639459,
+                0.160093
+            ],
+            [
+                52.6640012,
+                0.1599348
+            ],
+            [
+                52.6640524,
+                0.1598583
+            ],
+            [
+                52.6641338,
+                0.1597698
+            ],
+            [
+                52.6642419,
+                0.1596987
+            ],
+            [
+                52.6643184,
+                0.1596679
+            ],
+            [
+                52.6643395,
+                0.1596397
+            ],
+            [
+                52.6644843,
+                0.1591596
+            ]
+        ]
     },
     {
-        "points": [
+        "id": "Story Zone - 2",
+        "audio": "sounds/webm-96k/05-Zone-2.webm,sounds/mp3-128k/05-Zone-2-128k.mp3",
+        "description": "Description of monument and Wisbech.",
+        "howl": null,
+        "polygon": [
             [
-                52.6646405,
-                0.1586205
+                52.6645901,
+                0.1587679
             ],
             [
-                52.6648642,
-                0.1584073
+                52.6649675,
+                0.1585293
             ],
             [
-                52.6647922,
-                0.1582309
+                52.6646926,
+                0.1579097
             ],
             [
-                52.6647373,
-                0.1579888
+                52.6646129,
+                0.1581135
             ],
             [
-                52.6647011,
-                0.1580753
+                52.66459,
+                0.1584488
             ],
             [
-                52.6646559,
-                0.1582865
-            ],
-            [
-                52.6646405,
-                0.1586205
+                52.6645901,
+                0.1587679
             ]
         ],
-        "id": "Storyzone 2",
-        "audio": "sounds/StoryZone-2.mp3",
-        "description": "The monument, a key part of the story is imparted to us. We are asked to look up and around. What can we see and we are then transported into the future of Wisbech. [CROSS CAREFULLY, IT IS A BUSY ROAD]"
+        "path": [
+            [
+                52.6646128,
+                0.1587251
+            ],
+            [
+                52.6647625,
+                0.1581538
+            ]
+        ]
     },
     {
-        "points": [
+        "id": "Story Zone - 3",
+        "audio": "sounds/webm-96k/06-Zone-3.webm,sounds/mp3-128k/06-Zone-3-128k.mp3",
+        "description": "We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. \n\nThe river is glowing. You can see all the power draining away.\n",
+        "howl": null,
+        "polygon": [
             [
-                52.6650162,
-                0.1576924
+                52.6647576,
+                0.1577033
             ],
             [
-                52.6649935,
-                0.1575261
+                52.6648439,
+                0.1581108
             ],
             [
-                52.6647462,
-                0.1576924
+                52.6651155,
+                0.1578641
             ],
             [
-                52.6648048,
-                0.1579392
-            ],
-            [
-                52.665039,
-                0.157789
-            ],
-            [
-                52.6650162,
-                0.1576924
-            ]
-        ],
-        "id": "Story Zone 3",
-        "audio": "sounds/StoryZone-3(bridge).mp3",
-        "description": "We are now on The Brink (of the future)"
-    },
-    {
-        "points": [
-            [
-                52.6651902,
-                0.1572835
-            ],
-            [
-                52.6651301,
-                0.1559182
-            ],
-            [
-                52.6644452,
-                0.1537859
-            ],
-            [
-                52.6642728,
-                0.1539736
-            ],
-            [
-                52.6649365,
-                0.1560925
-            ],
-            [
-                52.664982,
-                0.1573102
-            ],
-            [
-                52.6651902,
-                0.1572835
-            ]
-        ],
-        "id": "Story Zone 4",
-        "audio": "sounds/StoryZone-4.mp3",
-        "description": "Now we're on North Brink.."
-    },
-    {
-        "points": [
-            [
-                52.6641639,
-                0.1527169
-            ],
-            [
-                52.6632529,
-                0.1508877
-            ],
-            [
-                52.6630609,
-                0.151349
-            ],
-            [
-                52.6638646,
-                0.1529798
-            ],
-            [
-                52.6641639,
-                0.1527169
-            ]
-        ],
-        "id": "Story Zone 5",
-        "audio": "sounds/Story-Zone-5.mp3",
-        "description": "The port still trades..."
-    },
-    {
-        "points": [
-            [
-                52.6628299,
-                0.1504183
-            ],
-            [
-                52.6627063,
-                0.1509708
-            ],
-            [
-                52.6630089,
-                0.1512498
-            ],
-            [
-                52.6631846,
-                0.1508421
-            ],
-            [
-                52.6628299,
-                0.1504183
-            ]
-        ],
-        "id": "Story Zone - 6",
-        "audio": "sounds/StoryZone-6.mp3",
-        "description": "Rogue dogs.."
-    },
-    {
-        "points": [
-            [
-                52.6626217,
-                0.1503592
-            ],
-            [
-                52.6619547,
-                0.1504827
-            ],
-            [
-                52.6615252,
-                0.1508474
-            ],
-            [
-                52.661304,
-                0.1508662
-            ],
-            [
-                52.6611478,
-                0.1507562
-            ],
-            [
-                52.6601375,
-                0.149627
-            ],
-            [
-                52.6599537,
-                0.1501072
-            ],
-            [
-                52.6611348,
-                0.1514161
-            ],
-            [
-                52.6615122,
-                0.1514858
-            ],
-            [
-                52.6617953,
-                0.1513463
-            ],
-            [
-                52.6626136,
-                0.1508421
-            ],
-            [
-                52.6626217,
-                0.1503592
-            ]
-        ],
-        "id": "Story Zone - 7",
-        "audio": "sounds/StoryZone-7.mp3",
-        "description": "The culmination of the story"
-    },
-    [
-        {
-            "point": [
-                52.6639833,
-                0.161127
-            ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 1"
-            }
-        },
-        {
-            "point": [
-                52.6643867,
-                0.1596719
-            ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 2",
-                "cDescription": "what does the future Wisbech sound like?"
-            }
-        },
-        {
-            "point": [
-                52.664795,
-                0.1583737
-            ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 3",
-                "cDescription": "moving from past to future sound"
-            }
-        },
-        {
-            "point": [
-                52.6649235,
-                0.155552
-            ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 5",
-                "cDescription": "water on the left, boats, watercraft..."
-            }
-        },
-        {
-            "point": [
-                52.665096,
+                52.6649772,
                 0.1575744
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 4",
-                "cDescription": "we are now on the brink - 2067"
-            }
-        },
-        {
-            "point": [
-                52.6645526,
-                0.1544979
+            [
+                52.6647576,
+                0.1577033
+            ]
+        ],
+        "path": [
+            [
+                52.664795,
+                0.1578534
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 6",
-                "cDescription": "sounds of the tower, perhaps building expectation"
-            }
-        },
-        {
-            "point": [
-                52.6641671,
-                0.1528001
+            [
+                52.6650227,
+                0.1576978
+            ]
+        ]
+    },
+    {
+        "id": "Story Zone - 4",
+        "audio": "sounds/webm-96k/07-Zone-4.webm,sounds/mp3-128k/07-Zone-4-128k.mp3",
+        "description": "Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.\n\nShe opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.\n\nShe describes the Brink as Georgian and references the fact that King George has just died. \n",
+        "howl": null,
+        "polygon": [
+            [
+                52.6650212,
+                0.1567804
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 7",
-                "cDescription": "music"
-            }
-        },
-        {
-            "point": [
-                52.6632757,
-                0.1513517
+            [
+                52.6649073,
+                0.1567564
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 8",
-                "cDescription": "change..."
-            }
-        },
-        {
-            "point": [
-                52.6628869,
-                0.1507938
+            [
+                52.6649512,
+                0.157451
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 9",
-                "cDescription": "wind, weather, people talking"
-            }
-        },
-        {
-            "point": [
-                52.6623028,
-                0.1506543
+            [
+                52.6650847,
+                0.157451
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 10",
-                "cDescription": "inside buildings, close spaces"
-            }
-        },
-        {
-            "point": [
-                52.6611771,
-                0.1510835
+            [
+                52.6652017,
+                0.1574564
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "atmos sound 11",
-                "cDescription": "ending of the story...blowing away..."
-            }
-        },
-        {
-            "point": [
-                52.6640955,
-                0.1608387
+            [
+                52.6651237,
+                0.1567483
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "360 tour of route",
-                "cDescription": "https://raw.githack.com/collusion-org-uk/wisbech-brink-360/master/index.html"
-            }
-        },
-        {
-            "point": [
-                52.6647666,
-                0.1582691
+            [
+                52.6650212,
+                0.1567804
+            ]
+        ],
+        "path": [
+            [
+                52.6651073,
+                0.157451
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Clarkson Memorial",
-                "cDescription": "<img src=\"https://lh5.googleusercontent.com/Oi9ZUy4pA9Xu0YsIThXlxiCZY2t0drS3gwlCdzaAa-LBOFnSVXON0lrarLanEgeT6BF0gZZ3D2qECHFSTGG0eaHEX7DDiSPiEYNQ02y5PF7HtWRQyZmbD3msgg6B3nK56Q\" height=\"200\" width=\"auto\" /><br><br>Reasonable amount of pavement space if you stand on memorial steps.<br><br><img src=\"https://lh4.googleusercontent.com/hxQfGUtcFolUHASxBAdtSS9HojrawjCxWcmAOT7vjYvGqn-vnVIQtF2SHYNzTnWT_zgZdZvfjsNFn9vyUEm3gaSQmpSIreAYmQGS-VhhiOFGV1d9GkfbE87F7VR-36sV\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/YmMi8SDT-JJHDGzwjZMnQBOYRx0Ck6z7Ydt3KYdBIFMvRtZ4N9Ee5G7HC2vpffDsJBanaoHBoDEhVXYOmw2p845QhQTGGYuji482p1JEUMr65XIK38h8B2Ti55njKAvj2Q\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/X5apfC0hHhc4RoJCyOdMWEeomQ08GMZF0i4GptOuqpgVjd2krcQqY9dHuwy6aU6uAoivZ_9u-hQ5Y3czYtlstWuLf1RCuZo5IXYoEvU8NVLuxTClxUwmaIOlcjCEKe3gFQ\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/Nq81NjYm0PvNK3JoNqASIA-pUvre15ua2i307NEWCzuhzthkJS01uaqxG09jzOYqTfNdaERenCTaFG5Hvx89reXGioc6dPWqE2S9MQ8RfcaQwCSFRCiraHzjdO35H8s\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/fAj5SRXexZmv9yMaiq9IXt0oPQgUbb-qg7Am5O76xDCI4-uFm_APhfnVMFtNy1cohPSWsaDI5yql4Qy4LVRr_xYlbaV9LALBQYMev6vzhL9m3uF_gYbN-W7yrARHeG--VA\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/KjW7hIeG629iIMFPgTJjoChDQ6jQ9CbNlyBDvLUP1c5uXhtmzEoX2_Ayr_W2AYLLeteSrhq2BG0xSfsBLMWpxlU5PIALE_BtYaoTKI2CBmjEl38E00j7-XDqbGQlNis\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/KAVB5Z2NoBfSZb5uey60YBQrKl42gqZW61iqbMy_fwAXzLTZjPURIytIRPmArJLZ3lO1XW9Hk4BfoH0xIWL66GlCtNDHgIdIAcqpi1YiXLKKxPeUaxG97TRt31O72PIY\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh4.googleusercontent.com/qeh1Tz0WQ5vlWWpbmuhjjpJ6Zd1Yu0dq9IPqNW_k8sFmlBPK3Xf4w40nVisn0st2LeZI3XOZcR1EmCot0CtE5EvYVms8o2EzNK0VWWuMvaydGPXhtk1kFu4YhvkHTKck\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/thSxwK0DzbFKrPsiwAS_e1lJCtHmiqe7Nux8Lc4Bt1OM4pPWLiuhrCxli6nAq46uSBb85vWsp83RNFhfo-XbYHVavq8V0TYjzDCCXnYdlORuT4KlBn5OmmxQeHOeQJn4\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6648731,
-                0.1577971
+            [
+                52.6650862,
+                0.1571372
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Nene from bridge",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/hbIyIVzSsxhymrd-IWB3a4ygIYp2RDrFw5cobczJ8ftCwRjqYiixtMlRn5Xw10dWoSWha8ravK3uNa3SKwT64y4Cz-sQ8hzD_rJhQbfQETnW-amKHF6E6ynMORyUkI1C\" height=\"200\" width=\"auto\" /><br><br>reminder to look at tide data"
-            }
-        },
-        {
-            "point": [
-                52.6651374,
-                0.1575355
+            [
+                52.6650781,
+                0.1567644
+            ]
+        ]
+    },
+    {
+        "id": "Story Zone - 5",
+        "audio": "sounds/webm-96k/08-Zone-5.webm,sounds/mp3-128k/08-Zone-5-128k.mp3",
+        "description": "Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.\n\nDescribes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.\n\nPipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.\n",
+        "howl": null,
+        "polygon": [
+            [
+                52.6652065,
+                0.156511
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Wall in passage",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/TAdAqZfiX1o08x_KmjToJNG1D2Y3aLCnrnWYro9DSQ0qH63SQTi3coeGh7C5_ZtE7LQjyn5UZmBd9_sGFRGufT-SFLGt8eeJ1HLZ3Os45Uj8Dc48Hp5-RDjefmmGyg\" height=\"200\" width=\"auto\" /><br><br>was considering this for augment but nearly got run over by cyclist!<br><br><img src=\"https://lh6.googleusercontent.com/g_97t0v2BdjCMBlRpZVXNYvS0QnnAxJAz9i4JMpJgKf7JF-DqrfwmlzIOjeXwXKenSkWeW0d0eNPvwp1tRGxEIN1JHAdI4wYiqI3KW1jbtAvRIBtrZ6XfsrMPCHbAnv9mg\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6644412,
-                0.15405
+            [
+                52.6652236,
+                0.1561697
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Tower",
-                "cDescription": "<img src=\"https://lh5.googleusercontent.com/SCLkEFvys9ng7CfXL5B1PzgV9EJ7Mccan9LI6yaGWB8oUZm1JSiFwT7ZC1A5eGI_YxgE5ba4b4aBvm8M-poE2c_hwsy-wOxTSvVEjCRL8c80rHZIlTjeaum3MvzK4eg\" height=\"200\" width=\"auto\" /><br><br>"
-            }
-        },
-        {
-            "point": [
-                52.6651204,
-                0.1574403
+            [
+                52.6651431,
+                0.1557103
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "corn exchange building\n",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/yrNuUD4_blkPiLFV1PF2BgSmStibq-aohqaWRK3zo8MtE1S9qnVYZkPmlithB108attO2ztnTlKX5m-SGY22N-bXg3bBEXIGXj7RSP0HPV4e2YMG9ywMDRNK-snUFp7T\" height=\"200\" width=\"auto\" /><br><br>built 1858<br><br><img src=\"https://lh5.googleusercontent.com/3OIcl4lsUiSgz_ubXsSrzgOs1J-yc7wJaPgvU_50obIdw85fyUKgEpqj9xYVVh2PfNYR7mFXFs7sZLEOh5cs2N-X5uZ0tDN5t7B-NpU0CvpIy0f1Jeb92BsBAY1dVyw\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6640858,
-                0.1527518
+            [
+                52.6650057,
+                0.1551384
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Nestle Purina",
-                "cDescription": "<img src=\"https://lh5.googleusercontent.com/HKWehWrNpNHUCLCSwov4-VXjS_tmwWvYiTT9OuJQFJ4HVb7Cyut5zSTLIetw4lSKBx9vkMEIwq018Cpg8IEHTi8TSm5UQyVHBY1nRNHyBkoUGF0fs251l8vknuTuO65X\" height=\"200\" width=\"auto\" /><br><br>"
-            }
-        },
-        {
-            "point": [
-                52.6649349,
-                0.1577836
+            [
+                52.6648747,
+                0.1547113
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "interesting bridge landmarks\n",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/wmK0XLPjvAOzlTCiaBDHO_5n0lCFVLcHKFuhn2DlfgJZPHPjXxVk0JZ4ts3wVHqB5GlRmQI1kjJYk_EWzLJ3MOVwuoG_er6eN_JTcdCDuSeZcgpQbHeDNu74T6byyWda\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh5.googleusercontent.com/Mo0YSmGofu5V5Hmsgb-PnsJqxLkadeePUoBDtxdTrsUhJeW5wHTHZagQmte6GJ2Sd3rm5tbGjS9aCNscFyJbcHyHgWrZhN8_74RljoS4IKvc56fv0jWJgzEgTx2jcgoZpg\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6651008,
-                0.1570541
+            [
+                52.6646046,
+                0.1540649
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "lloyds bank\n",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/GnsQ0uZOLpxJbJB30vjJOCt_mwEiN6G5gaMkwKvzd5wxpo0CsiTgeEs4mAWSfzajnkUi83lI8-jVPVpe8T6LbsVwNOpwfFUQHGjBhyNWOyGIwcaeUFYhOd8cIjgC9WU\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh5.googleusercontent.com/Lr3NCE52fEteygmv04YHcMivYN4TYnAGfR7CMNIUIUueaWheYb6L4u2f2vAJsamt1MSIKT4gCBiVGmRbp--TwwHj9dzfI8rjUTw6dJLFyzCSKVX42AycLLyL2P_aBcE\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/JC0BvzSE96cazxoTID5WGQE5htotW861nPrUtu1uM7UY_igJUJFgLf4BlkxOgvX_YhLZecaxupMuF3V-K7u8sFRjuHclcjUP5Sh6hSujsKsC-2bhlKm0oqElvHdU6fkY\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/FcSPHBKl7pr34BGSAHynUiNhUuKhzMbeApRbZq0YBqyB2e-fzsTNQYr5VjQ9UdIJ3DhhV7m05Pga3GYGXH6n2aTmy4Hkzs7gGKeG9RglpPvfsSQpT1rhBFam2PWW6F0\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh6.googleusercontent.com/JrBuWgSGbtjmuUdiB_yC7GTtDkedvfPSJUcV3Gj-OTuMKzo08oapTlfayGQ3NEEhOwSub0B7OPERvKkHweYzsFQyz6mYI4cgb1Wn7HnNVM4LZQRv0BAP5XsSsuiBd29A\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6648731,
-                0.1553535
+            [
+                52.6642841,
+                0.154274
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "peckover house\n",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/fVTl3YybVVs5HudvOMY-RT18-0nLPc3mH9FzkaRvtaMEzy-xEC0fFsE_XOzTRIpgZgAuuClFv9ZDhtnVSDhJRxwxMNJJ8r_Bv0K4vKOQPadugHKRjVvRdXSq2CDezKmh\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh4.googleusercontent.com/CXduOrBr2aJ6cannET-i8LVYhsWJe9cHUYww0S_ebohzUkhkL_dYS5AGg8jz6AuhJ5YgycBSV8pQV9VEP38aw-hBEsPHtb5H9NlfVa3sr5nWsdTDMrMmtUF06X-Rods\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6612812,
-                0.1512015
+            [
+                52.6644387,
+                0.1547595
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "elgoods brewery\n",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/FDqP8ZZ_Voyn-S4MVieDRjBfNlQ6JufJiECs5EFGyo_8zFWVtHWltvH7_K0Zyz9hadAZ6DoXHnEIG1V-7B1a3gUVWWfyzIDLf_H67ea3beQ5-nNLVcGiQUX2EMDOU1ED\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh4.googleusercontent.com/ppr4lF78wuzqSs1tKcxwYyKWQoC5u_mOIdlX85HoMNQgYosZX1TnD_cZj6K2POEUYpxl-YeYnG-5GECuptWfCEC8PDAa6fYZ33z6SFMpMo18rkeLluUJUmrv5m-JaGf3\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6646811,
-                0.1549083
+            [
+                52.6646144,
+                0.1552557
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "friends meeting house\n",
-                "cDescription": "<img src=\"https://lh5.googleusercontent.com/HiGw1z3yW_jTX-6uta2gtWBHxr1hVaPoLkr22clY35Pn3Szrpyq1Gr6NxvHQaQi-PoG92IYelUhJdV1YlHZNFiWipN0O221gC1pQ5xQ8-m3nh-z0jgplo8l7EXycRkwi\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh3.googleusercontent.com/63A3ux-ECfhUVGZzwng5UXqfeZVjn5hPUfc07NYluB1ADxCbPp5WO6bNrJCv51bfMBiEMgD2JVIRhG9i9Bd67K-13dRqjTIoIHoCQZuhiJB56Ahu431UrsgmWE52YcDg\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/xEiD9dT-0XDj0b1_qK1XfnDM76DwJCBRyM06XHSVUA0ufs7sxiPn0hgWpeHRfKimTDWEY-NeTo3qkv8J76bCHc4FAMyD-1nCETZ40DvYWZ0D9dpTIOvncZRCHCXIlbeT\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6627063,
-                0.1505792
+            [
+                52.6648161,
+                0.1559208
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "roadsplit landmarks\n",
-                "cDescription": "<img src=\"https://lh5.googleusercontent.com/F1IwMqA8cTCZsq5mVD1PHFKjVnWuHodRjf275inXJaxGlIvtnPXO2oD0tH91fp9GobfI5HwDjpAleTUV8Lmw5jMmZKV7s4D0kZ6lBzhTxHGn8jzhIUBMtyYDZpvf7lMM\" height=\"200\" width=\"auto\" /><br><br>"
-            }
-        },
-        {
-            "point": [
-                52.6631774722222,
-                0.151249000000007
+            [
+                52.6648975,
+                0.1565485
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "tower 2 with inscription\n",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/tozpjEKcZfvCRk52vAS3HCCnczZtTWNUTwQvOVr5scL63vHbeyf5FcAYGE5wEKvNnV_vGq77i_kX0DYciGOhUqmR5NeRajaVmMDKbgzZes0Vr7Zs5MQQHP9Jp6OxYUZj\" height=\"200\" width=\"auto\" /><br><br>"
-            }
-        },
-        {
-            "point": [
-                52.6644553888889,
-                0.154323972222187
+            [
+                52.6652065,
+                0.156511
+            ]
+        ],
+        "path": [
+            [
+                52.6650683,
+                0.1565203
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "tower 1\n",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/HXK9WB5lC9qFneYl4-I6v5fRPoMdLg88fPCsYHdT60OewSCRoq1E5BFgPkXpWXAA4xZ1YDFufM088bEqZeg-h5mt54xHf_FiQWhr5QJ98IMjgCWEduvNI2F5KdmJknAQ\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh6.googleusercontent.com/WQEso2O8TrTixavZzzI2IrMRMJ5Gns9d-W4Tz4zwSopiwAP2TeQzMuLmlh2uvd6Vo9YWKIzWDxuhWUjSp2DP1lmNdefzzGQ4joImMWVVlH7lMZzSDtiV4pHhbY843LB4\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6648243,
-                0.1584649
+            [
+                52.6650634,
+                0.1562575
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Augment 1-",
-                "cDescription": "This gets the client used to the idea of augmentation. Can the memorial change to something else...?"
-            }
-        },
-        {
-            "point": [
-                52.6650716,
-                0.1569092
+            [
+                52.6650211,
+                0.1559731
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "AUGMENT 2 - opposite Hare & Hounds",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/TlUkinEBSKoXNu4oAhFUYkiaq4V-Gi7RTUyXaOi3TxrzSYaolpGRoEUhI6QgaCobC9hJIN3KcbvreM565cUokNwgHxcEEFSY9a4sK48WTWiXqkVZXvSBt038tfvUXesF\" height=\"200\" width=\"auto\" /><br><br>This could be sited below the plinth or on the bollard. Call to action in audio, find the marker, look across the water and see into the future...<br><br><img src=\"https://lh6.googleusercontent.com/_dmozjt87g4QrRYqpq_mM27RUz5GnK7kgNreas3xsnGbRsXbFC2_mt7XUear4I4GynvDXuXP0wjiDXqi92vRhy09_vOJi6G5QFZfJz6Ge61Biac_OJyh_teVWOGp_blH\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.664974,
-                0.1556674
+            [
+                52.6649121,
+                0.1555896
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Augment 3 - just before Peckover House",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/EfquTzF7ThlbtjstH95CuNuTQe0Y2S9xWqwKHasqqSJLFhoLTswRn3HOWe5k_VKynR48HyqFHuC8eSfPsKOf9Sp2cGqGAbYYiNrINpti8ANsBfmpoEqOLnFzjc2SyAzn\" height=\"200\" width=\"auto\" /><br><br>Augementation point 3 on lampost<br><br><img src=\"https://lh6.googleusercontent.com/0MbhIvRzLFqeDy1x6k6qE9xJBJ-kAbTBCUAmuXzRMMuVerT109C9FbnsBcGtgFtxJ5AtS8lGn1o1atw7srzxr7lXB9BlcOzt4B-Cg4ygC_Mg8U5pRcZBsoC-pd7LMIQ\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6644664,
-                0.1540929
+            [
+                52.6647836,
+                0.1552141
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Augment 4 - The Tower",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/l31aZoYepYFQOzHoovmHjRZfiBsCoAllSmUFplMgN2MZLk0-Y-XxlhYVpGavZ_E1g_x6N7EzwGQ0-EO3i4uknU2e-51rg79xixnAhpt_t_l-yW5ZL9_SeyVLOk3xBgo\" height=\"200\" width=\"auto\" /><br><br>would require a private permission but worth a shot<br><br><img src=\"https://lh6.googleusercontent.com/zgQ6_O1FZVzTtCZpue63ftx7JmUi2CFrcMrDZ47dTvmeFf4GGIPgXOM60AjX7PtB4R_ENdcXyxjPofTpg3SJPE8Ri_e8l1RBLxdThw6j-ruFmWtT6NqcZfcNGhQCGuo\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6641671,
-                0.1528671
+            [
+                52.6647169,
+                0.1550424
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Augment - 5",
-                "cDescription": "We get people safely across the road. Augmentation marker is on the bench, then the next sound file is triggered..."
-            }
-        },
-        {
-            "point": [
-                52.663165,
-                0.1511157
+            [
+                52.6646063,
+                0.1547769
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Augment - 6",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/5bsG9fqwB8PwoSzSw8G8-Ji_ntEu8ju30mL0cCmMVdussELF0_tnJXJ9myv4N1CopArVeUKiqxzXV9uEs05ktL_Sg7bIM-RJW9EpOohTVW2FbYo3QSy-idV8fGYEVFSr\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh6.googleusercontent.com/UeBjh3-rpByRuNuXb9UUOU13CNOpaeYgCxKwoOrRi-rIN3nzFQXzpoFGokHABj93DYlq6lWD1h0pjzyaNcqnMTIqxrSmpfcMgNq5PwCiIYOykGz3q2Ct16wzIHBUhyGS\" height=\"200\" width=\"auto\" />"
-            }
-        },
-        {
-            "point": [
-                52.6640183,
-                0.1611042
+            [
+                52.6644502,
+                0.1542753
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "The Start",
-                "cDescription": "<img src=\"https://lh3.googleusercontent.com/wQ7C_5mESC33QHzJe1TMqijJLPIaY3jK_OksLmLKcgbyStg6oZQKa0TURJ2BnfpkdExm37Jo91RFp9v-xEbSGGr0JiXS6uak2J_zjTrCXotcTDKuHWq9RqcggmYhHoaU\" height=\"200\" width=\"auto\" /><br><br>The Brink is a digital media project developed with Wisbech and environs artists and creative industries. The outcome is an augmented reality series of interlinking stories to be experienced by visitors to the North Brink area of Wisbech. This is on the north bank of the River Nene, an area that contains historic buildings and has good pedestrian access.<br> <br>NOTES - congregation point outside the museum.<br>At this point we get people briefed and technically sorted (iPhone, Android, mp3, curated, self initiated)"
-            }
-        },
-        {
-            "point": [
-                52.6641386,
-                0.1609111
+            [
+                52.6644306,
+                0.1541787
+            ]
+        ]
+    },
+    {
+        "id": "Story Zone - 6",
+        "audio": "sounds/webm-96k/09-Zone-6.webm,sounds/mp3-128k/09-Zone-6-128k.mp3",
+        "description": "Pipp sees footprints along the Brink. \nNotes that since the black shuck escaped the power has drained.\n\nPipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.\n",
+        "howl": null,
+        "polygon": [
+            [
+                52.6642485,
+                0.1528738
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "inception of the story",
-                "cDescription": "The Brink story commences, we find out where we are, what year it is and who the characters are."
-            }
-        },
-        {
-            "point": [
-                52.6647413,
-                0.1583254
+            [
+                52.6639016,
+                0.1520156
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Story zone 2 - Clarkson Memorial",
-                "cDescription": "<img src=\"https://lh6.googleusercontent.com/RkR3QooPFBGOXpaVb1KPb1n1P4WzoQLNwUgmm5xoYPpMxvfTXxFkQ5zhCk0aZWSgeYf0WDXVij-uStRmlcVUEkU_LPKN2NcbRUvsq5E3xceYhNwbUgrKxvwrqxkSUZA\" height=\"200\" width=\"auto\" /><br><br>https://en.wikipedia.org/wiki/Clarkson_Memorial - Thomas Clarkson - a central figure in the campaign against the slave trade in <br>the British empire, and a former native of Wisbech."
-            }
-        },
-        {
-            "point": [
-                52.6647397,
-                0.1580036
+            [
+                52.6633619,
+                0.1510876
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "crossing point (!!!)",
-                "cDescription": "All crossing points of this kind recommended no audio and instruction to client to be carfeful"
-            }
-        },
-        {
-            "point": [
-                52.6651333,
-                0.1575906
+            [
+                52.6631406,
+                0.151471
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "The Brink",
-                "cDescription": "we then move 50 years forward into 2067. We hear multiple voices of people describing their lives and what Wisbech is like..."
-            }
-        },
-        {
-            "point": [
-                52.6645169,
-                0.1544067
+            [
+                52.6635995,
+                0.1521819
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "instruction",
-                "cDescription": "story line/zone ends...we are now coming up to the Augmented Tower. Rest a while here and see if you can find the hidden marker. When you have found it, walk to the pub have a drink and then continue over chapel road to the bench..."
-            }
-        },
-        {
-            "point": [
-                52.6641102,
-                0.1528296
+            [
+                52.6640029,
+                0.1531716
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "instruction",
-                "cDescription": "storyline picks up from brief break...denouement...jeopardy...discovery..."
-            }
-        },
-        {
-            "point": [
-                52.66283,
-                0.1505417
+            [
+                52.6642485,
+                0.1528738
+            ]
+        ],
+        "path": [
+            [
+                52.664198,
+                0.1529288
             ],
-            "icon": "purpleIcon",
-            "vo": {
-                "variant": "iframe",
-                "src": "https://cdn.pannellum.org/2.3/pannellum.htm?panorama=https://i.imgur.com/S22XBa7.jpg&amp;autoLoad=true",
-                "cType": "360 Image",
-                "cTitle": "Instruction",
-                "cDescription": "Another safe road crossing here"
-            }
+            [
+                52.6640581,
+                0.1528242
+            ],
+            [
+                52.6638662,
+                0.1523709
+            ],
+            [
+                52.6637734,
+                0.152159
+            ],
+            [
+                52.6636091,
+                0.1518506
+            ],
+            [
+                52.6633977,
+                0.151526
+            ],
+            [
+                52.6632447,
+                0.1512873
+            ]
+        ]
+    },
+    {
+        "id": "Story Zone - 7",
+        "audio": "sounds/webm-96k/11-Zone-7.webm,sounds/mp3-128k/11-Zone-7-128k.mp3",
+        "description": "Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.",
+        "howl": null,
+        "polygon": [
+            [
+                52.6626754,
+                0.1502761
+            ],
+            [
+                52.6622671,
+                0.1503647
+            ],
+            [
+                52.6619726,
+                0.1505752
+            ],
+            [
+                52.6619142,
+                0.1506356
+            ],
+            [
+                52.6618587,
+                0.1506919
+            ],
+            [
+                52.6619254,
+                0.1511317
+            ],
+            [
+                52.6623631,
+                0.150834
+            ],
+            [
+                52.6627828,
+                0.1508126
+            ],
+            [
+                52.6626754,
+                0.1502761
+            ]
+        ],
+        "path": [
+            [
+                52.6627388,
+                0.1505953
+            ],
+            [
+                52.662529,
+                0.1506194
+            ],
+            [
+                52.6623224,
+                0.1506221
+            ],
+            [
+                52.6621158,
+                0.1507214
+            ],
+            [
+                52.6619596,
+                0.1508394
+            ],
+            [
+                52.6618945,
+                0.1508984
+            ]
+        ]
+    },
+    {
+        "id": "Story Zone - 8",
+        "audio": "sounds/webm-96k/12-Zone-8.webm,sounds/mp3-128k/12-Zone-8-128k.mp3",
+        "description": "Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.",
+        "howl": null,
+        "polygon": [
+            [
+                52.6617074,
+                0.1508608
+            ],
+            [
+                52.661374,
+                0.1510217
+            ],
+            [
+                52.6602954,
+                0.1498578
+            ],
+            [
+                52.660166,
+                0.150252
+            ],
+            [
+                52.6612032,
+                0.1514214
+            ],
+            [
+                52.6615627,
+                0.1514469
+            ],
+            [
+                52.661836,
+                0.1513033
+            ],
+            [
+                52.6617074,
+                0.1508608
+            ]
+        ],
+        "path": [
+            [
+                52.6617595,
+                0.1510486
+            ],
+            [
+                52.6616782,
+                0.1511505
+            ],
+            [
+                52.6615448,
+                0.1512042
+            ],
+            [
+                52.6613983,
+                0.1512229
+            ],
+            [
+                52.6612071,
+                0.1511304
+            ],
+            [
+                52.6608704,
+                0.1507978
+            ],
+            [
+                52.6606589,
+                0.1505685
+            ],
+            [
+                52.66024,
+                0.1500334
+            ]
+        ]
+    }
+];
+// style object used to style POIs, ie Lefalet marker styling options
+// create more as required
+var purpleIcon = L.icon({
+    iconUrl: 'imgs/poi-purple.png',
+    iconSize:     [32, 32], // size of the icon
+    iconAnchor:   [16, 16], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -16] // point from which the popup should open relative to the iconAnchor
+});
+// use poiList array to store POI (point of interest) data objects
+
+var poiList = [
+    {
+        "point": [
+            52.6639833,
+            0.161127
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 1"
         }
-    ]
-]
+    },
+    {
+        "point": [
+            52.6643867,
+            0.1596719
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 2",
+            "cDescription": "what does the future Wisbech sound like?"
+        }
+    },
+    {
+        "point": [
+            52.664795,
+            0.1583737
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 3",
+            "cDescription": "moving from past to future sound"
+        }
+    },
+    {
+        "point": [
+            52.6649235,
+            0.155552
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 5",
+            "cDescription": "water on the left, boats, watercraft..."
+        }
+    },
+    {
+        "point": [
+            52.665096,
+            0.1575744
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 4",
+            "cDescription": "we are now on the brink - 2067"
+        }
+    },
+    {
+        "point": [
+            52.6645526,
+            0.1544979
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 6",
+            "cDescription": "sounds of the tower, perhaps building expectation"
+        }
+    },
+    {
+        "point": [
+            52.6641671,
+            0.1528001
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 7",
+            "cDescription": "music"
+        }
+    },
+    {
+        "point": [
+            52.6632757,
+            0.1513517
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 8",
+            "cDescription": "change..."
+        }
+    },
+    {
+        "point": [
+            52.6628869,
+            0.1507938
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 9",
+            "cDescription": "wind, weather, people talking"
+        }
+    },
+    {
+        "point": [
+            52.6623028,
+            0.1506543
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 10",
+            "cDescription": "inside buildings, close spaces"
+        }
+    },
+    {
+        "point": [
+            52.6611771,
+            0.1510835
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "atmos sound 11",
+            "cDescription": "ending of the story...blowing away..."
+        }
+    },
+    {
+        "point": [
+            52.6640955,
+            0.1608387
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "360 tour of route",
+            "cDescription": "https://raw.githack.com/collusion-org-uk/wisbech-brink-360/master/index.html"
+        }
+    },
+    {
+        "point": [
+            52.6647666,
+            0.1582691
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "Clarkson Memorial",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/-hHxJNKEK2EcDva25FXaV5jnNH7KzUr1BuirA2u-S6LycilwiwExLO5Os64ibN_6Is3bpEWkU-uySSl3Shh4tYIPbv-oHsmDl5jmS2oqOPSecMUv5AJiTQL6gwelt50\" height=\"200\" width=\"auto\" /><br><br>Reasonable amount of pavement space if you stand on memorial steps.<br><br><img src=\"https://lh6.googleusercontent.com/kxuBV9cvy-mvITw-kR6hn2S9K5r-qglPvmPdcjJFyfYhNyyBjmfc2rG_J95PV8N1dj_bqxev4mow3eObGx8tLy3YUIBiQWymiat71hNvVgJ--k_6Z5l3VsluBwEVhddD7w\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh6.googleusercontent.com/DAM1NY8B3h72Rq561riqT6yIDzMuWJb48BpHrBX0QPFsOEDt5TUNxM2_Axy8W8q3Nr-zZI1QNWw87duupJvIKOtz4cKquiHRSHbu-sIMQzTPyyWSCtcKnFJ9jxo2-9w6\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/jadKJW7M1yc0A1vka7cosZZRPjjfxIVFsCyk2M124MepuczekZ3VmDfBLDEu7gPOrdY0tvUnxTRosqUUC2b-ZzwcVQ3S5s9MCtxb6QTryNM8VmWI8ljaWtqEJRO_fEiV\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/eGtlZDqTHQtcmQzQD5dsVMrYvXMznlVdqxBWB_uFZRH-zsbEFXz_L3d2GyUoAIXmkAb9xGtYFCnF5eLQszZ-jHqKWRVf9Jd2qiCwitD3Jpg3xmxhQ2NxS8vZAki6j0E\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh6.googleusercontent.com/foLTTDeXcT3Gwp5Lxbh8QMRGTl_Y9P6f5sKYb5dJ5KpygDgDjZoP9qZt24tL2Ad5RyJcCbSasELf4AqFx2F-XPoEy7p149S8XKQUElaaoYXPXZlq1h-o0QzDTqDN2aY\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh6.googleusercontent.com/EPIxzq3tLTgIWNmSgrA9XufYwkGbKW8hGQLNAdfRvnZ15wUfFiTt5Y5CdZ-AzRWGi2RLCA4eweAFeMZ-WMFVQYAyx81urqwjB3nTkMI7-BUHNo-EpssuldnGCa6xnFhA\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/WUitiiHogoQSXsCLEkpQIvjJoJVz1xUG7PhAqHIA2f5zV51Egaq2VQIRkbIFX3SlxNRFxXkTMM1I-P7JKgvmQ-jfhqTEbZTKvJFLEcLfRt5ovjwH7Jqm4zZpu298koGh\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh3.googleusercontent.com/FVxuGV_8UqQnTMPVIH_iRMp2oQ9Gg_P5pb7baFP3vYAEdc9fl9cTj7u6UHR4Y6KNP8Zlg4bmvwH7raTheII4IMnOLAbpTvS_oUhyMk8ytTIBkMB5NURj_Ls-Vq-cBHaeiw\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/U7hWt7PWiIT7Zz04CHoScEbFScuZlvP1BPrt4zC5CuCVNDHARpune-kYKKbycKQbwD_K6wn6EmocdF4C7UvMT2PJqh0Sk3jfspzBKx_w9Kw16A8pDTuGby_-KolEBbC2QQ\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6648731,
+            0.1577971
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "Nene from bridge",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/i3X88Z9cwyVe0PWa82EqA3CVgPfjuSMkl1B_oADQOiyGwST8al6BaYGhd578-nNA-C7WFdMWGv2vIEmp-K_Uyx3zxh8rso1d7OZRSFzkvThohKBS-Dd8nNIZsiqynyKE\" height=\"200\" width=\"auto\" /><br><br>reminder to look at tide data"
+        }
+    },
+    {
+        "point": [
+            52.6651374,
+            0.1575355
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "Wall in passage",
+            "cDescription": "<img src=\"https://lh4.googleusercontent.com/hlCF7zVTnSIFCouDPHfq8KfmbSyxWHuEhg5AKsI8MiYSAl-7ojS_mXsIO8ujTnAf0934tLhIoAE4qzdvZiCJ9DrQEWSzGSSQri5zvovidGmuRVg-iF4t3fH5ivGuE7Q\" height=\"200\" width=\"auto\" /><br><br>was considering this for augment but nearly got run over by cyclist!<br><br><img src=\"https://lh6.googleusercontent.com/TVeoHiOmQ7mWUbE-cRLBiceiWLu0ULUEvLIEd-cPV32O_xHZ_dxa8ibiyaM57mVawxVneeQB9-0YhFAo6Ox87tMgBUs6L1nSRczHrpMOVLRYbeLlxU0zNiGElvpT1x28\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6644412,
+            0.15405
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "Tower",
+            "cDescription": "<img src=\"https://lh5.googleusercontent.com/Vo56aA_3i_lbaq098Vmr_5xhmK3Qa7eb7VQI-53SGm4OO-12xqdolNBWcQsM82y9aWQZZWd6uZzf6Kp5S7z7fcVbw3nV7hSHh6SN09NsyC7VHyTPx9Gkwl2QbgZGpTRu\" height=\"200\" width=\"auto\" /><br><br>"
+        }
+    },
+    {
+        "point": [
+            52.6651204,
+            0.1574403
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "corn exchange building\n",
+            "cDescription": "<img src=\"https://lh5.googleusercontent.com/vwLulWrUUDKrKttn397iR2FaZej6GeTF8OGU6KsPccDGCaqDFpKrknFoYAJm7hxQ1IOeArdgt7W2PkNOjTYhdeKHNZKIGM95plPlFtHgjOv33M5f0xkkRynXsBZCBkXg\" height=\"200\" width=\"auto\" /><br><br>built 1858<br><br><img src=\"https://lh6.googleusercontent.com/oEaa3AYISNqDpgCsmGPXVyiGRuAYmvwTGkLhvXURwUsvsNVXj4f_wmkoRyOdDyIf22X0oo-002_fhWuzGX6w5UsajHkExzvZm8nc690vl_PA7IOxsJtjju3US2mlgV3c\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6640858,
+            0.1527518
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "Nestle Purina",
+            "cDescription": "<img src=\"https://lh5.googleusercontent.com/1Q6e4eLqZZtvj0Dk9jGNRs3_HErOcBpXcVQQfD6eL2Pg7ykq2Xpx2TAkhWvN_Jta3G0Gw2rAfcHBqjnBhVz6m3wzUBMAEJZ2O0K5GLcq66v1lfILciOHtOeQZ2MwUNeMyA\" height=\"200\" width=\"auto\" /><br><br>"
+        }
+    },
+    {
+        "point": [
+            52.6649349,
+            0.1577836
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "interesting bridge landmarks\n",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/OPshrfG8YcakBcGxkLmJvGYMLiK23bhLB5Z-yTSpErzq-HkJEmdiTAoAZliWWNvUdwnPSwIG-tOnUFO5Md0sbdkhBt8FRM4beeTgfR-E4nAJtP9i1zIPvwMxsaQamHk\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh5.googleusercontent.com/J-HdPdtqhi06cSbrdvyvS13_QT9sFhBDFXMyW1xMer1RqnvlY0JLpLZGD3EFg19FaxeLxJJGLVKGX5ym5oL8Te7WMY9PC1lY6RSfwNJTunq5dAR-XuWQqL9OtZdT4irh\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6651008,
+            0.1570541
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "lloyds bank\n",
+            "cDescription": "<img src=\"https://lh4.googleusercontent.com/GtYU4Eo64rlxtyo7I1DLfgBAlRZ8c6eOLDHwXLYfKoQj84Ck5Akjl8TsNiLFmRzESVSFgyTgRHlASpZ975C1OIUOLVPgR_jgZOUnb2OHPqA9IlAjMxrLlzm5HRlLBMIR\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh6.googleusercontent.com/UCj953GvZao522R4ksIBo52y7_F5EbgDT4mGDTR1-2Rpxth_kmr59T5sd2W6oEKukNypQGtdMWd6vJk3fDpi4V1N2LBT1y904FCe5pSngKAMlxFFcKAq6U-A8I4YcQE\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/u0Bji8Lj5niskgJDj3wR3Hi3s1udhLUbzppzEYgGnnGyNzMiwCFIoDTRCFppBr7kXjbrfFr7Wq2dAd6iARVjAuozBSQUwadcuw2oHwIzZcvFMHgA8g9BBCf6HGcVD5MgaQ\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/eiIlGPMxaVe0BjQaj5mGlAZX0ObjhO3s1mHLdwL0X5tHqmwLbU-2_iyDQxXPt08T7wnqV9J1psB-ugR3kWLr3TOJaQMH38NCmIN8wZdY9bZk3BhA1rSI3gc9tSM1ftIx\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh4.googleusercontent.com/-EQmSn-zvOOYIU2vJyOfoI3BVNg_ecSxwRSmweCzlKZZCp4AnO5DXXDXTA5GTAmQJI9gULATuI8pcQEdYZws-Sa0GUP9tjctMvRWa9khqOuwwuxelk80u3Q_9UToPIT7pg\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6648731,
+            0.1553535
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "peckover house\n",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/XUXLU_CzSOWFUPGQQz4OnWATW4gh-4V3VeZWnN2ICYS2hfnSfN2gJ4T-0IcktuJWQwG84yiKGblg2jD5kRZ0AYAGdEZWhHuqwntrhpVu9jIITqSTKxblYUrG5YUPvNue\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh3.googleusercontent.com/dQE90TfUs8MBuinCgPQ8WtXTzdfKjqsUSEa0GxPczqvCTM-Vd2FlBD9LCph-yMC8HFx2E1emhkRaDX6irmEHVHNpMWhmsqhDRCR9DwmB1Yps1xJ4FBM3Zujwc9kFT20\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6612812,
+            0.1512015
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "elgoods brewery\n",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/QCzNf2ripVwPvrczIRPVT2yDL0wmJZRXMjL8oKXPc1XTe-7IosT7103-AuNJn2161jP1QEDun0nFsH-zXDDsYmrDWGTgV7eRJ_D_925meJ-WhzDcpn6kwjWLpIf4XR-7\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh5.googleusercontent.com/ZuRUPf6RdVWjimfS32Wjg4OT6hV8LhLhtjN4bc-z_iRIR5OIvH5eZZax_Tk5xXoPvlNAslVDsVGC5JN-NBEqC1PqA266N68U1Y2Wl5z6mWdGPeCkKeLOdQ_17yxud6s7\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6646811,
+            0.1549083
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "friends meeting house\n",
+            "cDescription": "<img src=\"https://lh6.googleusercontent.com/kG9e4WAN8O_2wZGzhPpnKMghKZU1Ufhd7cGooHD-ybOqmzCnqp03XA4pQ--cHsbjvnMXt_lJHInMeGc2T9HcUKim5riOmp9kbCOjqbk3gqAgi_hpCDQnLKjKDzsIuOW89g\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh3.googleusercontent.com/kLl0JR_Qxwv6nqLFsmKgc03FUFVcGJPbpQXbCsLBThQfkvCQk6LDVxPwA_SMWQ_qpfrmzyqyRsirvzHRVvArJ3ItjiUfO-tEdTOROa9tqQufj2pB8hZPul5dlDiqOko\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://lh5.googleusercontent.com/x0cgfJDn5xAFts52vhw8m4ZYpJouGJPrU05ePs7hj0TzSnvjswje2jsQJKVJwGg7Yne-6c-0w13hT6qRLCxyViNE5QiwadTbXfdYzfwextW2sqACH_8qxhGlrDPuF_q6\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6627063,
+            0.1505792
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "roadsplit landmarks\n",
+            "cDescription": "<img src=\"https://lh3.googleusercontent.com/Rb998Yqs7e0SJFCJAZN3l0QO_IvhJXPABa0YED5ReVndO8Z6S87rY_V3yKfh72gLyNhIUIw7tSI50rDN0SwyH57GWEUdDvlI8VLPYFZK-HKcspqqrAnB4EQdsBXQAiE\" height=\"200\" width=\"auto\" /><br><br>"
+        }
+    },
+    {
+        "point": [
+            52.6631774722222,
+            0.151249000000007
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "tower 2 with inscription\n",
+            "cDescription": "<img src=\"https://lh4.googleusercontent.com/InZOJakSjYyV0H7dPIKw5c3eAhkewACVSXd42-ksDXFhIgHWi9vSD-zg5G9BduultnsV-KkY8orxvB9_WzdOC_vuaw4Ih-xT6L7En-75HdO7m7x2JGtybqn5PMQM_Lk\" height=\"200\" width=\"auto\" /><br><br>"
+        }
+    },
+    {
+        "point": [
+            52.6644553888889,
+            0.154323972222187
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "cTitle": "tower 1\n",
+            "cDescription": "<img src=\"https://lh5.googleusercontent.com/d7rNEqOIhDdsjp8ZLvx2kMomXU1F9Dxo3YvJ4i6l393_kz0fCglk2wlMz5EIkXcSXvlVrCJSgSxlNwGoMltSpjfj8cA9KqphmgWowydvcZH935mE6m0MODcXLYukk0I\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://lh6.googleusercontent.com/7Qlm5v0RKueHn0LJiGhNB0buUCLg_it5QkC3PYO4koYyRKFZPVGBuwJ5hsOTXE4LnJF9T7aub29cFD7Ga4F_pjor6T4DZtd2nus5ueVttAsvjvyvQGlZRhQtMtREwIV_\" height=\"200\" width=\"auto\" />"
+        }
+    },
+    {
+        "point": [
+            52.6639915,
+            0.1611364
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - INTRO",
+            "cType": "augment",
+            "cTitle": "TEST",
+            "cDescription": "You are about to enter Wisbech in 100 years time. Please read the following instructions before taking the journey into The Brink of the Future.\n\nPlease use headphones to gain the full effect of the story. Please be aware that there are road crossings ahead through the town. Cross safely at all times. The audio is designed to match a clear route marked on your map.\n\nEach part of the story will unfold as you walk into the story zones, as long as you have GPS activated on your phone. If you’re not sure about activation click here for a guide on how to set up LOCATION services on an Android or iOS (iPhone) device.\n\nIf you do not have a smart phone you can listen to the MP3 files by following this link - \n"
+        }
+    },
+    {
+        "point": [
+            52.6645755,
+            0.159114
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 1",
+            "cType": "augment",
+            "cTitle": "Augment - 1",
+            "cDescription": "Evisons"
+        }
+    },
+    {
+        "point": [
+            52.6647494,
+            0.1583469
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 2",
+            "cType": "augment",
+            "cTitle": "Augment - 2",
+            "cDescription": "Clarkson Memorial\nhttps://en.wikipedia.org/wiki/Clarkson_Memorial - Thomas Clarkson - a central figure in the campaign against the slave trade in \nthe British empire, and a former native of Wisbech.\n"
+        }
+    },
+    {
+        "point": [
+            52.6649121,
+            0.1577729
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 3",
+            "cType": "augment",
+            "cTitle": "Augment - 3",
+            "cDescription": "Brink of the Future - view over river."
+        }
+    },
+    {
+        "point": [
+            52.66514,
+            0.1570594
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 4",
+            "cType": "augment",
+            "cTitle": "Augment - 4",
+            "cDescription": "Lloyds Bank - view of Memory Bank. "
+        }
+    },
+    {
+        "point": [
+            52.6644827,
+            0.1540661
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 5",
+            "cType": "augment",
+            "cTitle": "Augment - 5",
+            "cDescription": "Across the river - The Institute of Discovery"
+        }
+    },
+    {
+        "point": [
+            52.663274,
+            0.1511827
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 6",
+            "cType": "augment",
+            "cTitle": "Augment - 6",
+            "cDescription": "Second Tower - motto enhanced: Be not weary in well doing. "
+        }
+    },
+    {
+        "point": [
+            52.6618311,
+            0.150842
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 7",
+            "cType": "augment",
+            "cTitle": "Augment - 7",
+            "cDescription": "Elgood's Courtyard - damage to wall from lightning strike. Black Shuck sighting."
+        }
+    },
+    {
+        "point": [
+            52.6612324,
+            0.1509816
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "augments/owlAugment.html",
+            "zone": "Story Zone - 8",
+            "cType": "augment",
+            "cTitle": "Augment - 8",
+            "cDescription": "View back up river of Power Invest Plasma Plant up and running again."
+        }
+    },
+    {
+        "point": [
+            52.6639565,
+            0.1612705
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - INTRO",
+            "cType": "instruction",
+            "cTitle": "THE START",
+            "cDescription": "The Brink is a digital media project developed with Wisbech and environs artists and creative industries. The outcome is an augmented reality series of interlinking stories to be experienced by visitors to the North Brink area of Wisbech. This is on the north bank of the River Nene, an area that contains historic buildings and has good pedestrian access.\n \nNOTES - congregation point outside the museum.\nAt this point we get people briefed and technically sorted (iPhone, Android, mp3, curated, self initiated)"
+        }
+    },
+    {
+        "point": [
+            52.6644843,
+            0.1591034
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 1",
+            "cType": "instruction",
+            "cTitle": "Instruction - 1",
+            "cDescription": "Turn left and walk towards the Post Office sign. Look right, and cross carefully to be in front of Evisons."
+        }
+    },
+    {
+        "point": [
+            52.6645966,
+            0.1590443
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 1",
+            "cType": "instruction",
+            "cTitle": "Instruction - 2",
+            "cDescription": "Turn towards the Clarkson Memorial, and cross carefully up to the steps."
+        }
+    },
+    {
+        "point": [
+            52.664756,
+            0.158127
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 2",
+            "cType": "instruction",
+            "cTitle": "Instruction - 3",
+            "cDescription": "Cross over the two roads that will take you to the Bridge and then cross over to the other side to face up the North Brink, making sure to use the pedestrian crossings and to take care of traffic, which is particularly heavy here."
+        }
+    },
+    {
+        "point": [
+            52.6650227,
+            0.1576978
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 3",
+            "cType": "instruction",
+            "cTitle": "Instruction - 4",
+            "cDescription": "Now walk across the Bridge towards the North Brink. Make your way to Lloyds National Provincial Bank, taking care of any traffic. Cross the road to the benches and face Lloyds."
+        }
+    },
+    {
+        "point": [
+            52.6650585,
+            0.1568932
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 4",
+            "cType": "instruction",
+            "cTitle": "Instruction - 5",
+            "cDescription": "Walk across back to the other side of the road, and onto the pavement. Follow the path until further instruction."
+        }
+    },
+    {
+        "point": [
+            52.6642468,
+            0.1531085
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 5",
+            "cType": "instruction",
+            "cTitle": "Instruction - 6",
+            "cDescription": "Cross the pedestrian crossing carefully and wait on the other side until further instruction."
+        }
+    },
+    {
+        "point": [
+            52.6641574,
+            0.1528376
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 6",
+            "cType": "instruction",
+            "cTitle": "Instruction - 7",
+            "cDescription": "Continue walking along the Brink to meet Caleb, and look up at the Tower."
+        }
+    },
+    {
+        "point": [
+            52.6632205,
+            0.1511036
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 6",
+            "cType": "instruction",
+            "cTitle": "Instruction - 8",
+            "cDescription": "Continue walking down the road until you meet the intersection. Cross carefully and follow the path continuing on the North Brink."
+        }
+    },
+    {
+        "point": [
+            52.6618294,
+            0.1509574
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 7",
+            "cType": "instruction",
+            "cTitle": "Instruction - 9",
+            "cDescription": "Continue walking."
+        }
+    },
+    {
+        "point": [
+            52.6611576,
+            0.1509172
+        ],
+        "icon": "purpleIcon",
+        "vo": {
+            "variant": "iframe",
+            "src": "#",
+            "zone": "Story Zone - 8",
+            "cType": "instruction",
+            "cTitle": "THE END (Instruction - 10)",
+            "cDescription": "You have reached the end of the story, we hope you enjoyed the Brink of the Future, rest a while on the benches if you need to.\n\nPlease complete the survey about the project by following the link. On your way back, listen to the Wisbech people’s memories and stories by clicking on the memory link on the navigation bar above. \n\nThank you for taking the time to do this, please tell your friends and family to come and listen to the story. If you have an elderly or infirm relative, the story can be listened to at home by following the link above.\n"
+        }
+    }
+];

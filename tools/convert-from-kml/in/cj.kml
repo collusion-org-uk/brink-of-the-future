@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>The Brink</name>
+    <description>project area for The Brink</description>
+    <Style id="icon-1899-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0097A7-9331-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>9.331</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0097A7-9331-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>13.9965</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0097A7-9331-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0097A7-9331-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0097A7-9331-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-01579B-9525-nodesc-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>9.525</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-01579B-9525-nodesc-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>14.2875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-01579B-9525-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-01579B-9525-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-01579B-9525-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0F9D58-8944-nodesc-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>8.944</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0F9D58-8944-nodesc-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>13.416</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-8944-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-8944-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-8944-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-558B2F-9138-nodesc-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>9.138</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-558B2F-9138-nodesc-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>13.707</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-558B2F-9138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-558B2F-9138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-558B2F-9138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-C2185B-8944-nodesc-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>8.944</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-C2185B-8944-nodesc-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>13.416</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-C2185B-8944-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C2185B-8944-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C2185B-8944-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F57C00-9331-nodesc-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>9.331</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F57C00-9331-nodesc-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>13.9965</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F57C00-9331-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F57C00-9331-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F57C00-9331-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F57C00-9525-nodesc-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>9.525</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F57C00-9525-nodesc-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>14.2875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F57C00-9525-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F57C00-9525-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F57C00-9525-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFEA00-9138-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>9.138</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFEA00-9138-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>13.707</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFEA00-9138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFEA00-9138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFEA00-9138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-000000-1200-77-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-01579B-2201-82-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>529b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-01579B-2201-82-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>529b5701</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-01579B-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-01579B-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-01579B-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-2101-82-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>2.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-2101-82-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.1515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-2101-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-2101-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-2101-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-2201-82-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-2201-82-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-558B2F-2201-79-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-558B2F-2201-79-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f2f8b55</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-558B2F-2201-79">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-558B2F-2201-79-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-558B2F-2201-79-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-C2185B-2301-82-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>525b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-C2185B-2301-82-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>525b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-C2185B-2301-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C2185B-2301-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C2185B-2301-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-2201-82-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>2.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-2201-82-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>3.3015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>52007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-2201-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-2201-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-2201-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F57C00-2301-79-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-2301-79-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4f007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-2301-79">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-2301-79-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-2301-79-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-2101-82-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-2101-82-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.1515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-2101-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-2101-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-2101-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFEA00-2301-82-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFEA00-2301-82-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>3.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>5200eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-2301-82">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-2301-82-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-2301-82-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>atmosphere sounds</name>
+      <Placemark>
+        <name>atmos sound 1</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.161127,52.6639833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 2</name>
+        <description>what does the future Wisbech sound like?</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1596719,52.6643867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 3</name>
+        <description>moving from past to future sound</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1583737,52.664795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 5</name>
+        <description>water on the left, boats, watercraft...</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.155552,52.6649235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 4</name>
+        <description>we are now on the brink - 2067</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1575744,52.665096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 6</name>
+        <description>sounds of the tower, perhaps building expectation</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1544979,52.6645526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 7</name>
+        <description>music</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1528001,52.6641671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 8</name>
+        <description>change...</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1513517,52.6632757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 9</name>
+        <description>wind, weather, people talking</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1507938,52.6628869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 10</name>
+        <description>inside buildings, close spaces</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1506543,52.6623028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>atmos sound 11</name>
+        <description>ending of the story...blowing away...</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1510835,52.6611771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>extra images</name>
+      <Placemark>
+        <name>360 tour of route</name>
+        <description>https://raw.githack.com/collusion-org-uk/wisbech-brink-360/master/index.html</description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            0.1608387,52.6640955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clarkson Memorial</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/-hHxJNKEK2EcDva25FXaV5jnNH7KzUr1BuirA2u-S6LycilwiwExLO5Os64ibN_6Is3bpEWkU-uySSl3Shh4tYIPbv-oHsmDl5jmS2oqOPSecMUv5AJiTQL6gwelt50" height="200" width="auto" /><br><br>Reasonable amount of pavement space if you stand on memorial steps.<br><br><img src="https://lh6.googleusercontent.com/kxuBV9cvy-mvITw-kR6hn2S9K5r-qglPvmPdcjJFyfYhNyyBjmfc2rG_J95PV8N1dj_bqxev4mow3eObGx8tLy3YUIBiQWymiat71hNvVgJ--k_6Z5l3VsluBwEVhddD7w" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/DAM1NY8B3h72Rq561riqT6yIDzMuWJb48BpHrBX0QPFsOEDt5TUNxM2_Axy8W8q3Nr-zZI1QNWw87duupJvIKOtz4cKquiHRSHbu-sIMQzTPyyWSCtcKnFJ9jxo2-9w6" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/jadKJW7M1yc0A1vka7cosZZRPjjfxIVFsCyk2M124MepuczekZ3VmDfBLDEu7gPOrdY0tvUnxTRosqUUC2b-ZzwcVQ3S5s9MCtxb6QTryNM8VmWI8ljaWtqEJRO_fEiV" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/eGtlZDqTHQtcmQzQD5dsVMrYvXMznlVdqxBWB_uFZRH-zsbEFXz_L3d2GyUoAIXmkAb9xGtYFCnF5eLQszZ-jHqKWRVf9Jd2qiCwitD3Jpg3xmxhQ2NxS8vZAki6j0E" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/foLTTDeXcT3Gwp5Lxbh8QMRGTl_Y9P6f5sKYb5dJ5KpygDgDjZoP9qZt24tL2Ad5RyJcCbSasELf4AqFx2F-XPoEy7p149S8XKQUElaaoYXPXZlq1h-o0QzDTqDN2aY" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/EPIxzq3tLTgIWNmSgrA9XufYwkGbKW8hGQLNAdfRvnZ15wUfFiTt5Y5CdZ-AzRWGi2RLCA4eweAFeMZ-WMFVQYAyx81urqwjB3nTkMI7-BUHNo-EpssuldnGCa6xnFhA" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/WUitiiHogoQSXsCLEkpQIvjJoJVz1xUG7PhAqHIA2f5zV51Egaq2VQIRkbIFX3SlxNRFxXkTMM1I-P7JKgvmQ-jfhqTEbZTKvJFLEcLfRt5ovjwH7Jqm4zZpu298koGh" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/FVxuGV_8UqQnTMPVIH_iRMp2oQ9Gg_P5pb7baFP3vYAEdc9fl9cTj7u6UHR4Y6KNP8Zlg4bmvwH7raTheII4IMnOLAbpTvS_oUhyMk8ytTIBkMB5NURj_Ls-Vq-cBHaeiw" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/U7hWt7PWiIT7Zz04CHoScEbFScuZlvP1BPrt4zC5CuCVNDHARpune-kYKKbycKQbwD_K6wn6EmocdF4C7UvMT2PJqh0Sk3jfspzBKx_w9Kw16A8pDTuGby_-KolEBbC2QQ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/-hHxJNKEK2EcDva25FXaV5jnNH7KzUr1BuirA2u-S6LycilwiwExLO5Os64ibN_6Is3bpEWkU-uySSl3Shh4tYIPbv-oHsmDl5jmS2oqOPSecMUv5AJiTQL6gwelt50 https://lh6.googleusercontent.com/kxuBV9cvy-mvITw-kR6hn2S9K5r-qglPvmPdcjJFyfYhNyyBjmfc2rG_J95PV8N1dj_bqxev4mow3eObGx8tLy3YUIBiQWymiat71hNvVgJ--k_6Z5l3VsluBwEVhddD7w https://lh6.googleusercontent.com/DAM1NY8B3h72Rq561riqT6yIDzMuWJb48BpHrBX0QPFsOEDt5TUNxM2_Axy8W8q3Nr-zZI1QNWw87duupJvIKOtz4cKquiHRSHbu-sIMQzTPyyWSCtcKnFJ9jxo2-9w6 https://lh3.googleusercontent.com/jadKJW7M1yc0A1vka7cosZZRPjjfxIVFsCyk2M124MepuczekZ3VmDfBLDEu7gPOrdY0tvUnxTRosqUUC2b-ZzwcVQ3S5s9MCtxb6QTryNM8VmWI8ljaWtqEJRO_fEiV https://lh5.googleusercontent.com/eGtlZDqTHQtcmQzQD5dsVMrYvXMznlVdqxBWB_uFZRH-zsbEFXz_L3d2GyUoAIXmkAb9xGtYFCnF5eLQszZ-jHqKWRVf9Jd2qiCwitD3Jpg3xmxhQ2NxS8vZAki6j0E https://lh6.googleusercontent.com/foLTTDeXcT3Gwp5Lxbh8QMRGTl_Y9P6f5sKYb5dJ5KpygDgDjZoP9qZt24tL2Ad5RyJcCbSasELf4AqFx2F-XPoEy7p149S8XKQUElaaoYXPXZlq1h-o0QzDTqDN2aY https://lh6.googleusercontent.com/EPIxzq3tLTgIWNmSgrA9XufYwkGbKW8hGQLNAdfRvnZ15wUfFiTt5Y5CdZ-AzRWGi2RLCA4eweAFeMZ-WMFVQYAyx81urqwjB3nTkMI7-BUHNo-EpssuldnGCa6xnFhA https://lh3.googleusercontent.com/WUitiiHogoQSXsCLEkpQIvjJoJVz1xUG7PhAqHIA2f5zV51Egaq2VQIRkbIFX3SlxNRFxXkTMM1I-P7JKgvmQ-jfhqTEbZTKvJFLEcLfRt5ovjwH7Jqm4zZpu298koGh https://lh3.googleusercontent.com/FVxuGV_8UqQnTMPVIH_iRMp2oQ9Gg_P5pb7baFP3vYAEdc9fl9cTj7u6UHR4Y6KNP8Zlg4bmvwH7raTheII4IMnOLAbpTvS_oUhyMk8ytTIBkMB5NURj_Ls-Vq-cBHaeiw https://lh5.googleusercontent.com/U7hWt7PWiIT7Zz04CHoScEbFScuZlvP1BPrt4zC5CuCVNDHARpune-kYKKbycKQbwD_K6wn6EmocdF4C7UvMT2PJqh0Sk3jfspzBKx_w9Kw16A8pDTuGby_-KolEBbC2QQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1582691,52.6647666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nene from bridge</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/i3X88Z9cwyVe0PWa82EqA3CVgPfjuSMkl1B_oADQOiyGwST8al6BaYGhd578-nNA-C7WFdMWGv2vIEmp-K_Uyx3zxh8rso1d7OZRSFzkvThohKBS-Dd8nNIZsiqynyKE" height="200" width="auto" /><br><br>reminder to look at tide data]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/i3X88Z9cwyVe0PWa82EqA3CVgPfjuSMkl1B_oADQOiyGwST8al6BaYGhd578-nNA-C7WFdMWGv2vIEmp-K_Uyx3zxh8rso1d7OZRSFzkvThohKBS-Dd8nNIZsiqynyKE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1577971,52.6648731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wall in passage</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/hlCF7zVTnSIFCouDPHfq8KfmbSyxWHuEhg5AKsI8MiYSAl-7ojS_mXsIO8ujTnAf0934tLhIoAE4qzdvZiCJ9DrQEWSzGSSQri5zvovidGmuRVg-iF4t3fH5ivGuE7Q" height="200" width="auto" /><br><br>was considering this for augment but nearly got run over by cyclist!<br><br><img src="https://lh6.googleusercontent.com/TVeoHiOmQ7mWUbE-cRLBiceiWLu0ULUEvLIEd-cPV32O_xHZ_dxa8ibiyaM57mVawxVneeQB9-0YhFAo6Ox87tMgBUs6L1nSRczHrpMOVLRYbeLlxU0zNiGElvpT1x28" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/hlCF7zVTnSIFCouDPHfq8KfmbSyxWHuEhg5AKsI8MiYSAl-7ojS_mXsIO8ujTnAf0934tLhIoAE4qzdvZiCJ9DrQEWSzGSSQri5zvovidGmuRVg-iF4t3fH5ivGuE7Q https://lh6.googleusercontent.com/TVeoHiOmQ7mWUbE-cRLBiceiWLu0ULUEvLIEd-cPV32O_xHZ_dxa8ibiyaM57mVawxVneeQB9-0YhFAo6Ox87tMgBUs6L1nSRczHrpMOVLRYbeLlxU0zNiGElvpT1x28</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1575355,52.6651374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tower</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/Vo56aA_3i_lbaq098Vmr_5xhmK3Qa7eb7VQI-53SGm4OO-12xqdolNBWcQsM82y9aWQZZWd6uZzf6Kp5S7z7fcVbw3nV7hSHh6SN09NsyC7VHyTPx9Gkwl2QbgZGpTRu" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/Vo56aA_3i_lbaq098Vmr_5xhmK3Qa7eb7VQI-53SGm4OO-12xqdolNBWcQsM82y9aWQZZWd6uZzf6Kp5S7z7fcVbw3nV7hSHh6SN09NsyC7VHyTPx9Gkwl2QbgZGpTRu</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.15405,52.6644412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>corn exchange building
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/vwLulWrUUDKrKttn397iR2FaZej6GeTF8OGU6KsPccDGCaqDFpKrknFoYAJm7hxQ1IOeArdgt7W2PkNOjTYhdeKHNZKIGM95plPlFtHgjOv33M5f0xkkRynXsBZCBkXg" height="200" width="auto" /><br><br>built 1858<br><br><img src="https://lh6.googleusercontent.com/oEaa3AYISNqDpgCsmGPXVyiGRuAYmvwTGkLhvXURwUsvsNVXj4f_wmkoRyOdDyIf22X0oo-002_fhWuzGX6w5UsajHkExzvZm8nc690vl_PA7IOxsJtjju3US2mlgV3c" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/vwLulWrUUDKrKttn397iR2FaZej6GeTF8OGU6KsPccDGCaqDFpKrknFoYAJm7hxQ1IOeArdgt7W2PkNOjTYhdeKHNZKIGM95plPlFtHgjOv33M5f0xkkRynXsBZCBkXg https://lh6.googleusercontent.com/oEaa3AYISNqDpgCsmGPXVyiGRuAYmvwTGkLhvXURwUsvsNVXj4f_wmkoRyOdDyIf22X0oo-002_fhWuzGX6w5UsajHkExzvZm8nc690vl_PA7IOxsJtjju3US2mlgV3c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1574403,52.6651204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nestle Purina</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/1Q6e4eLqZZtvj0Dk9jGNRs3_HErOcBpXcVQQfD6eL2Pg7ykq2Xpx2TAkhWvN_Jta3G0Gw2rAfcHBqjnBhVz6m3wzUBMAEJZ2O0K5GLcq66v1lfILciOHtOeQZ2MwUNeMyA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/1Q6e4eLqZZtvj0Dk9jGNRs3_HErOcBpXcVQQfD6eL2Pg7ykq2Xpx2TAkhWvN_Jta3G0Gw2rAfcHBqjnBhVz6m3wzUBMAEJZ2O0K5GLcq66v1lfILciOHtOeQZ2MwUNeMyA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1527518,52.6640858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>interesting bridge landmarks
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/OPshrfG8YcakBcGxkLmJvGYMLiK23bhLB5Z-yTSpErzq-HkJEmdiTAoAZliWWNvUdwnPSwIG-tOnUFO5Md0sbdkhBt8FRM4beeTgfR-E4nAJtP9i1zIPvwMxsaQamHk" height="200" width="auto" /><br><br><br><br><img src="https://lh5.googleusercontent.com/J-HdPdtqhi06cSbrdvyvS13_QT9sFhBDFXMyW1xMer1RqnvlY0JLpLZGD3EFg19FaxeLxJJGLVKGX5ym5oL8Te7WMY9PC1lY6RSfwNJTunq5dAR-XuWQqL9OtZdT4irh" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/OPshrfG8YcakBcGxkLmJvGYMLiK23bhLB5Z-yTSpErzq-HkJEmdiTAoAZliWWNvUdwnPSwIG-tOnUFO5Md0sbdkhBt8FRM4beeTgfR-E4nAJtP9i1zIPvwMxsaQamHk https://lh5.googleusercontent.com/J-HdPdtqhi06cSbrdvyvS13_QT9sFhBDFXMyW1xMer1RqnvlY0JLpLZGD3EFg19FaxeLxJJGLVKGX5ym5oL8Te7WMY9PC1lY6RSfwNJTunq5dAR-XuWQqL9OtZdT4irh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1577836,52.6649349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>lloyds bank
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/GtYU4Eo64rlxtyo7I1DLfgBAlRZ8c6eOLDHwXLYfKoQj84Ck5Akjl8TsNiLFmRzESVSFgyTgRHlASpZ975C1OIUOLVPgR_jgZOUnb2OHPqA9IlAjMxrLlzm5HRlLBMIR" height="200" width="auto" /><br><br><br><br><img src="https://lh6.googleusercontent.com/UCj953GvZao522R4ksIBo52y7_F5EbgDT4mGDTR1-2Rpxth_kmr59T5sd2W6oEKukNypQGtdMWd6vJk3fDpi4V1N2LBT1y904FCe5pSngKAMlxFFcKAq6U-A8I4YcQE" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/u0Bji8Lj5niskgJDj3wR3Hi3s1udhLUbzppzEYgGnnGyNzMiwCFIoDTRCFppBr7kXjbrfFr7Wq2dAd6iARVjAuozBSQUwadcuw2oHwIzZcvFMHgA8g9BBCf6HGcVD5MgaQ" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/eiIlGPMxaVe0BjQaj5mGlAZX0ObjhO3s1mHLdwL0X5tHqmwLbU-2_iyDQxXPt08T7wnqV9J1psB-ugR3kWLr3TOJaQMH38NCmIN8wZdY9bZk3BhA1rSI3gc9tSM1ftIx" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/-EQmSn-zvOOYIU2vJyOfoI3BVNg_ecSxwRSmweCzlKZZCp4AnO5DXXDXTA5GTAmQJI9gULATuI8pcQEdYZws-Sa0GUP9tjctMvRWa9khqOuwwuxelk80u3Q_9UToPIT7pg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/GtYU4Eo64rlxtyo7I1DLfgBAlRZ8c6eOLDHwXLYfKoQj84Ck5Akjl8TsNiLFmRzESVSFgyTgRHlASpZ975C1OIUOLVPgR_jgZOUnb2OHPqA9IlAjMxrLlzm5HRlLBMIR https://lh6.googleusercontent.com/UCj953GvZao522R4ksIBo52y7_F5EbgDT4mGDTR1-2Rpxth_kmr59T5sd2W6oEKukNypQGtdMWd6vJk3fDpi4V1N2LBT1y904FCe5pSngKAMlxFFcKAq6U-A8I4YcQE https://lh5.googleusercontent.com/u0Bji8Lj5niskgJDj3wR3Hi3s1udhLUbzppzEYgGnnGyNzMiwCFIoDTRCFppBr7kXjbrfFr7Wq2dAd6iARVjAuozBSQUwadcuw2oHwIzZcvFMHgA8g9BBCf6HGcVD5MgaQ https://lh5.googleusercontent.com/eiIlGPMxaVe0BjQaj5mGlAZX0ObjhO3s1mHLdwL0X5tHqmwLbU-2_iyDQxXPt08T7wnqV9J1psB-ugR3kWLr3TOJaQMH38NCmIN8wZdY9bZk3BhA1rSI3gc9tSM1ftIx https://lh4.googleusercontent.com/-EQmSn-zvOOYIU2vJyOfoI3BVNg_ecSxwRSmweCzlKZZCp4AnO5DXXDXTA5GTAmQJI9gULATuI8pcQEdYZws-Sa0GUP9tjctMvRWa9khqOuwwuxelk80u3Q_9UToPIT7pg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1570541,52.6651008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>peckover house
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/XUXLU_CzSOWFUPGQQz4OnWATW4gh-4V3VeZWnN2ICYS2hfnSfN2gJ4T-0IcktuJWQwG84yiKGblg2jD5kRZ0AYAGdEZWhHuqwntrhpVu9jIITqSTKxblYUrG5YUPvNue" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/dQE90TfUs8MBuinCgPQ8WtXTzdfKjqsUSEa0GxPczqvCTM-Vd2FlBD9LCph-yMC8HFx2E1emhkRaDX6irmEHVHNpMWhmsqhDRCR9DwmB1Yps1xJ4FBM3Zujwc9kFT20" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/XUXLU_CzSOWFUPGQQz4OnWATW4gh-4V3VeZWnN2ICYS2hfnSfN2gJ4T-0IcktuJWQwG84yiKGblg2jD5kRZ0AYAGdEZWhHuqwntrhpVu9jIITqSTKxblYUrG5YUPvNue https://lh3.googleusercontent.com/dQE90TfUs8MBuinCgPQ8WtXTzdfKjqsUSEa0GxPczqvCTM-Vd2FlBD9LCph-yMC8HFx2E1emhkRaDX6irmEHVHNpMWhmsqhDRCR9DwmB1Yps1xJ4FBM3Zujwc9kFT20</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1553535,52.6648731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>elgoods brewery
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/QCzNf2ripVwPvrczIRPVT2yDL0wmJZRXMjL8oKXPc1XTe-7IosT7103-AuNJn2161jP1QEDun0nFsH-zXDDsYmrDWGTgV7eRJ_D_925meJ-WhzDcpn6kwjWLpIf4XR-7" height="200" width="auto" /><br><br><br><br><img src="https://lh5.googleusercontent.com/ZuRUPf6RdVWjimfS32Wjg4OT6hV8LhLhtjN4bc-z_iRIR5OIvH5eZZax_Tk5xXoPvlNAslVDsVGC5JN-NBEqC1PqA266N68U1Y2Wl5z6mWdGPeCkKeLOdQ_17yxud6s7" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/QCzNf2ripVwPvrczIRPVT2yDL0wmJZRXMjL8oKXPc1XTe-7IosT7103-AuNJn2161jP1QEDun0nFsH-zXDDsYmrDWGTgV7eRJ_D_925meJ-WhzDcpn6kwjWLpIf4XR-7 https://lh5.googleusercontent.com/ZuRUPf6RdVWjimfS32Wjg4OT6hV8LhLhtjN4bc-z_iRIR5OIvH5eZZax_Tk5xXoPvlNAslVDsVGC5JN-NBEqC1PqA266N68U1Y2Wl5z6mWdGPeCkKeLOdQ_17yxud6s7</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1512015,52.6612812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>friends meeting house
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/kG9e4WAN8O_2wZGzhPpnKMghKZU1Ufhd7cGooHD-ybOqmzCnqp03XA4pQ--cHsbjvnMXt_lJHInMeGc2T9HcUKim5riOmp9kbCOjqbk3gqAgi_hpCDQnLKjKDzsIuOW89g" height="200" width="auto" /><br><br><br><br><img src="https://lh3.googleusercontent.com/kLl0JR_Qxwv6nqLFsmKgc03FUFVcGJPbpQXbCsLBThQfkvCQk6LDVxPwA_SMWQ_qpfrmzyqyRsirvzHRVvArJ3ItjiUfO-tEdTOROa9tqQufj2pB8hZPul5dlDiqOko" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/x0cgfJDn5xAFts52vhw8m4ZYpJouGJPrU05ePs7hj0TzSnvjswje2jsQJKVJwGg7Yne-6c-0w13hT6qRLCxyViNE5QiwadTbXfdYzfwextW2sqACH_8qxhGlrDPuF_q6" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/kG9e4WAN8O_2wZGzhPpnKMghKZU1Ufhd7cGooHD-ybOqmzCnqp03XA4pQ--cHsbjvnMXt_lJHInMeGc2T9HcUKim5riOmp9kbCOjqbk3gqAgi_hpCDQnLKjKDzsIuOW89g https://lh3.googleusercontent.com/kLl0JR_Qxwv6nqLFsmKgc03FUFVcGJPbpQXbCsLBThQfkvCQk6LDVxPwA_SMWQ_qpfrmzyqyRsirvzHRVvArJ3ItjiUfO-tEdTOROa9tqQufj2pB8hZPul5dlDiqOko https://lh5.googleusercontent.com/x0cgfJDn5xAFts52vhw8m4ZYpJouGJPrU05ePs7hj0TzSnvjswje2jsQJKVJwGg7Yne-6c-0w13hT6qRLCxyViNE5QiwadTbXfdYzfwextW2sqACH_8qxhGlrDPuF_q6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1549083,52.6646811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>roadsplit landmarks
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/Rb998Yqs7e0SJFCJAZN3l0QO_IvhJXPABa0YED5ReVndO8Z6S87rY_V3yKfh72gLyNhIUIw7tSI50rDN0SwyH57GWEUdDvlI8VLPYFZK-HKcspqqrAnB4EQdsBXQAiE" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/Rb998Yqs7e0SJFCJAZN3l0QO_IvhJXPABa0YED5ReVndO8Z6S87rY_V3yKfh72gLyNhIUIw7tSI50rDN0SwyH57GWEUdDvlI8VLPYFZK-HKcspqqrAnB4EQdsBXQAiE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1505792,52.6627063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>tower 2 with inscription
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/InZOJakSjYyV0H7dPIKw5c3eAhkewACVSXd42-ksDXFhIgHWi9vSD-zg5G9BduultnsV-KkY8orxvB9_WzdOC_vuaw4Ih-xT6L7En-75HdO7m7x2JGtybqn5PMQM_Lk" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/InZOJakSjYyV0H7dPIKw5c3eAhkewACVSXd42-ksDXFhIgHWi9vSD-zg5G9BduultnsV-KkY8orxvB9_WzdOC_vuaw4Ih-xT6L7En-75HdO7m7x2JGtybqn5PMQM_Lk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.151249000000007,52.6631774722222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>tower 1
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/d7rNEqOIhDdsjp8ZLvx2kMomXU1F9Dxo3YvJ4i6l393_kz0fCglk2wlMz5EIkXcSXvlVrCJSgSxlNwGoMltSpjfj8cA9KqphmgWowydvcZH935mE6m0MODcXLYukk0I" height="200" width="auto" /><br><br><br><br><img src="https://lh6.googleusercontent.com/7Qlm5v0RKueHn0LJiGhNB0buUCLg_it5QkC3PYO4koYyRKFZPVGBuwJ5hsOTXE4LnJF9T7aub29cFD7Ga4F_pjor6T4DZtd2nus5ueVttAsvjvyvQGlZRhQtMtREwIV_" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/d7rNEqOIhDdsjp8ZLvx2kMomXU1F9Dxo3YvJ4i6l393_kz0fCglk2wlMz5EIkXcSXvlVrCJSgSxlNwGoMltSpjfj8cA9KqphmgWowydvcZH935mE6m0MODcXLYukk0I https://lh6.googleusercontent.com/7Qlm5v0RKueHn0LJiGhNB0buUCLg_it5QkC3PYO4koYyRKFZPVGBuwJ5hsOTXE4LnJF9T7aub29cFD7Ga4F_pjor6T4DZtd2nus5ueVttAsvjvyvQGlZRhQtMtREwIV_</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.154323972222187,52.6644553888889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>story zones</name>
+      <Placemark>
+        <name>Story Zone - INTRO</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=g0FIfHM6nbA"><img src="http://img.youtube.com/vi/g0FIfHM6nbA/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/g0FIfHM6nbA">https://www.youtube.com/embed/g0FIfHM6nbA</a><br><br>mp3: /mp3-128k/01-Intro-128k.mp3<br>webm: /webm-96k/01-Intro.webm<br>description: Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. ]]></description>
+        <styleUrl>#poly-0F9D58-2101-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/01-Intro-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/01-Intro.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Standing in front of Museum. Introduction to narrator (Pipp, a girl aged 15). Year is 2117. Description of museum and surroundings. Discusses invention of power. Mentions it is running out. Hope your phone is fully charged because you can’t recharge it in Wisbech at the moment. </value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/g0FIfHM6nbA</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1609138,52.6639036,0
+                0.1612973,52.6637832,0
+                0.1615227,52.6640451,0
+                0.1610774,52.6641638,0
+                0.1609138,52.6639036,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 1</name>
+        <description><![CDATA[mp3: /mp3-128k/03-Zone-1-128k.mp3<br>webm: /webm-96k/03-Zone-1.webm<br>description: Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. <br><br>Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.]]></description>
+        <styleUrl>#poly-F57C00-2301-79</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/03-Zone-1-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/03-Zone-1.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. 
+
+Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1607019,52.6642175,0
+                0.1604202,52.6640442,0
+                0.1601171,52.664106,0
+                0.1599482,52.6642404,0
+                0.1598946,52.6644095,0
+                0.1592803,52.6646145,0
+                0.1590442,52.6643632,0
+                0.1593661,52.6642208,0
+                0.159637,52.6639442,0
+                0.1598476,52.6638068,0
+                0.1601064,52.6637344,0
+                0.1604471,52.6636807,0
+                0.1608279,52.6638873,0
+                0.1609876,52.6641174,0
+                0.1607019,52.6642175,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 2</name>
+        <description><![CDATA[mp3: /mp3-128k/05-Zone-2-128k.mp3<br>webm: /webm-96k/05-Zone-2.webm<br>description: Description of monument and Wisbech.]]></description>
+        <styleUrl>#poly-FFEA00-2301-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/05-Zone-2-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/05-Zone-2.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Description of monument and Wisbech.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1587679,52.6645901,0
+                0.1585293,52.6649675,0
+                0.1579097,52.6646926,0
+                0.1581135,52.6646129,0
+                0.1584488,52.66459,0
+                0.1587679,52.6645901,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 3</name>
+        <description><![CDATA[mp3: /mp3-128k/06-Zone-3-128k.mp3<br>webm: /webm-96k/06-Zone-3.webm<br>description: We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. <br><br>The river is glowing. You can see all the power draining away.<br>]]></description>
+        <styleUrl>#poly-C2185B-2301-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/06-Zone-3-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/06-Zone-3.webm</value>
+          </Data>
+          <Data name="description">
+            <value>We look over the river. Pipp talks about the tidal changes of the river. You can see boats arriving in a high speed river link. They dock at a stop on the North Brink. In the distance you can glimpse the power plant. There is an information super highway in the water which imports information to be stored in the town and exports power from the plant and outwards. Pipp references the fact that at Spring Tide the water can reach the top of the bridge and that she throws a penny into the water for good luck. 
+
+The river is glowing. You can see all the power draining away.
+</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1577033,52.6647576,0
+                0.1581108,52.6648439,0
+                0.1578641,52.6651155,0
+                0.1575744,52.6649772,0
+                0.1577033,52.6647576,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 4</name>
+        <description><![CDATA[mp3: /mp3-128k/07-Zone-4-128k.mp3<br>webm: /webm-96k/07-Zone-4.webm<br>description: Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.<br><br>She opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.<br><br>She describes the Brink as Georgian and references the fact that King George has just died. <br>]]></description>
+        <styleUrl>#poly-558B2F-2201-79</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/07-Zone-4-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/07-Zone-4.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Pipp describes the repurposing of the old bank buildings, now used as memory banks for information and data storage and run by robots. She describes a friend who works there who is a robot. She discusses the fact that this is where she found the portal and opened it - a doorway into the past from a hundred years ago.
+
+She opened it because she was curious about Wisbech before the flooding and the power plant. She thinks something came out of the doorway or something escaped into it because the power started draining away at that point.
+
+She describes the Brink as Georgian and references the fact that King George has just died. 
+</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1567804,52.6650212,0
+                0.1567564,52.6649073,0
+                0.157451,52.6649512,0
+                0.157451,52.6650847,0
+                0.1574564,52.6652017,0
+                0.1567483,52.6651237,0
+                0.1567804,52.6650212,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 5</name>
+        <description><![CDATA[mp3: /mp3-128k/08-Zone-5-128k.mp3<br>webm: /webm-96k/08-Zone-5.webm<br>description: Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.<br><br>Describes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.<br><br>Pipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.<br>]]></description>
+        <styleUrl>#poly-01579B-2201-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/08-Zone-5-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/08-Zone-5.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Caleb appears to contribute to description of Wisbech - high speed river link. Superhighway in the river that exports energy and imports memory data.
+
+Describes the boats arriving and carrying people (geeks, creative engineers and digital innovators) who are arriving from Cambridge to work at the famous Wisbech Institute of Discovery.
+
+Pipp talks about the introduction of plasma power and references how cars used to be powered by fossil fuel and the noise and smell. Compares it to burning witches. Reminds Caleb about sound of dog growling at the bank.
+</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.156511,52.6652065,0
+                0.1561697,52.6652236,0
+                0.1557103,52.6651431,0
+                0.1551384,52.6650057,0
+                0.1547113,52.6648747,0
+                0.1540649,52.6646046,0
+                0.154274,52.6642841,0
+                0.1547595,52.6644387,0
+                0.1552557,52.6646144,0
+                0.1559208,52.6648161,0
+                0.1565485,52.6648975,0
+                0.156511,52.6652065,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 6</name>
+        <description><![CDATA[mp3: /mp3-128k/09-Zone-6-128k.mp3<br>webm: /webm-96k/09-Zone-6.webm<br>description: Pipp sees footprints along the Brink. <br>Notes that since the black shuck escaped the power has drained.<br><br>Pipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.<br>]]></description>
+        <styleUrl>#poly-0F9D58-2201-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/09-Zone-6-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/09-Zone-6.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Pipp sees footprints along the Brink. 
+Notes that since the black shuck escaped the power has drained.
+
+Pipp talks about flooding. Her mother’s memories of the floods. Rescue by black dog. References the fact that her friends live on houses on stilts so these are likely to be seen in some views. She talks about what the scene looked like when it was underwater and people paddle boarded between the upper stories of houses.
+</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1528738,52.6642485,0
+                0.1520156,52.6639016,0
+                0.1510876,52.6633619,0
+                0.151471,52.6631406,0
+                0.1521819,52.6635995,0
+                0.1531716,52.6640029,0
+                0.1528738,52.6642485,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 7</name>
+        <description><![CDATA[mp3: /mp3-128k/11-Zone-7-128k.mp3<br>webm: /webm-96k/11-Zone-7.webm<br>description: Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.]]></description>
+        <styleUrl>#poly-F57C00-2201-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/11-Zone-7-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/11-Zone-7.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Discussion of Black Shuck. Connection between power surge and appearance of black dog. Caleb captures an image of black dog. Destroys phone. Mends the grid.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1502761,52.6626754,0
+                0.1503647,52.6622671,0
+                0.1505752,52.6619726,0
+                0.1506356,52.6619142,0
+                0.1506919,52.6618587,0
+                0.1511317,52.6619254,0
+                0.150834,52.6623631,0
+                0.1508126,52.6627828,0
+                0.1502761,52.6626754,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 8</name>
+        <description><![CDATA[mp3: /mp3-128k/12-Zone-8-128k.mp3<br>webm: /webm-96k/12-Zone-8.webm<br>description: Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.]]></description>
+        <styleUrl>#poly-FFEA00-2101-82</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/12-Zone-8-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/12-Zone-8.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Final view of the town. See the power plant up and running again, plant and river brightly lit and power restored to town. Description of beauty of the power plant which is seen clearly from here.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1508608,52.6617074,0
+                0.1510217,52.661374,0
+                0.1498578,52.6602954,0
+                0.150252,52.660166,0
+                0.1514214,52.6612032,0
+                0.1514469,52.6615627,0
+                0.1513033,52.661836,0
+                0.1508608,52.6617074,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 1</name>
+        <description><![CDATA[mp3: /mp3-128k/03-Zone-1-128k.mp3<br>webm: /webm-96k/03-Zone-1.webm<br>description: Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. <br><br>Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/03-Zone-1-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/03-Zone-1.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Pipp guides us along right side of crescent. Reference to dome over marketplace as way to mark bearings. Reference to Ghost Passage and presence of ghosts in Wisbech. 
+
+Power suddenly drained from plant yesterday. She is retracing her steps. She may have let something escape from the memory bank. Something that is draining all the power. Reference to sound of dog growling, ghosts.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1356661,52.1905718,0
+                0.1356688,52.1903942,0
+                0.1368383,52.1903843,0
+                0.1368409,52.1905915,0
+                0.1356661,52.1905718,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 2</name>
+        <description><![CDATA[mp3: /mp3-128k/05-Zone-2-128k.mp3<br>webm: /webm-96k/05-Zone-2.webm<br>description: Description of monument and Wisbech.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <ExtendedData>
+          <Data name="mp3">
+            <value>/mp3-128k/05-Zone-2-128k.mp3</value>
+          </Data>
+          <Data name="webm">
+            <value>/webm-96k/05-Zone-2.webm</value>
+          </Data>
+          <Data name="description">
+            <value>Description of monument and Wisbech.</value>
+          </Data>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                0.1367444,52.1910979,0
+                0.135414,52.1910124,0
+                0.1353764,52.1908217,0
+                0.1367605,52.1909828,0
+                0.1367444,52.1910979,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>story-paths</name>
+      <Placemark>
+        <name>Story Zone - INTRO</name>
+        <styleUrl>#line-0097A7-9331-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1612329,52.663967,0
+            0.1609996,52.664037,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 1</name>
+        <styleUrl>#line-F57C00-9331-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.160895,52.66405,0
+            0.1607716,52.6639394,0
+            0.160557,52.6638938,0
+            0.1603934,52.6638824,0
+            0.1602405,52.6639036,0
+            0.160093,52.6639459,0
+            0.1599348,52.6640012,0
+            0.1598583,52.6640524,0
+            0.1597698,52.6641338,0
+            0.1596987,52.6642419,0
+            0.1596679,52.6643184,0
+            0.1596397,52.6643395,0
+            0.1591596,52.6644843,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 2</name>
+        <styleUrl>#line-FFEA00-9138-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1587251,52.6646128,0
+            0.1581538,52.6647625,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 3</name>
+        <styleUrl>#line-C2185B-8944-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1578534,52.664795,0
+            0.1576978,52.6650227,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 4</name>
+        <styleUrl>#line-558B2F-9138-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.157451,52.6651073,0
+            0.1571372,52.6650862,0
+            0.1567644,52.6650781,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 5</name>
+        <styleUrl>#line-01579B-9525-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1565203,52.6650683,0
+            0.1562575,52.6650634,0
+            0.1559731,52.6650211,0
+            0.1555896,52.6649121,0
+            0.1552141,52.6647836,0
+            0.1550424,52.6647169,0
+            0.1547769,52.6646063,0
+            0.1542753,52.6644502,0
+            0.1541787,52.6644306,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 6</name>
+        <styleUrl>#line-0F9D58-8944-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1529288,52.664198,0
+            0.1528242,52.6640581,0
+            0.1523709,52.6638662,0
+            0.152159,52.6637734,0
+            0.1518506,52.6636091,0
+            0.151526,52.6633977,0
+            0.1512873,52.6632447,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 7</name>
+        <styleUrl>#line-F57C00-9525-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1505953,52.6627388,0
+            0.1506194,52.662529,0
+            0.1506221,52.6623224,0
+            0.1507214,52.6621158,0
+            0.1508394,52.6619596,0
+            0.1508984,52.6618945,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 8</name>
+        <styleUrl>#line-FFEA00-9138-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1510486,52.6617595,0
+            0.1511505,52.6616782,0
+            0.1512042,52.6615448,0
+            0.1512229,52.6613983,0
+            0.1511304,52.6612071,0
+            0.1507978,52.6608704,0
+            0.1505685,52.6606589,0
+            0.1500334,52.66024,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 1</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1356661,52.1904896,0
+            0.1368517,52.1904961,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Story Zone - 2</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            0.1367337,52.1910322,0
+            0.1353925,52.1909401,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>video elements</name>
+    </Folder>
+    <Folder>
+      <name><![CDATA[augments & 360s]]></name>
+      <Placemark>
+        <name>TEST</name>
+        <description><![CDATA[zone: Story Zone - INTRO<br>type: augment<br>source: augments/owlAugment.html<br>description: You are about to enter Wisbech in 100 years time. Please read the following instructions before taking the journey into The Brink of the Future.<br><br>Please use headphones to gain the full effect of the story. Please be aware that there are road crossings ahead through the town. Cross safely at all times. The audio is designed to match a clear route marked on your map.<br><br>Each part of the story will unfold as you walk into the story zones, as long as you have GPS activated on your phone. If you’re not sure about activation click here for a guide on how to set up LOCATION services on an Android or iOS (iPhone) device.<br><br>If you do not have a smart phone you can listen to the MP3 files by following this link - <br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - INTRO</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>You are about to enter Wisbech in 100 years time. Please read the following instructions before taking the journey into The Brink of the Future.
+
+Please use headphones to gain the full effect of the story. Please be aware that there are road crossings ahead through the town. Cross safely at all times. The audio is designed to match a clear route marked on your map.
+
+Each part of the story will unfold as you walk into the story zones, as long as you have GPS activated on your phone. If you’re not sure about activation click here for a guide on how to set up LOCATION services on an Android or iOS (iPhone) device.
+
+If you do not have a smart phone you can listen to the MP3 files by following this link - 
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1611364,52.6639915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 1</name>
+        <description><![CDATA[zone: Story Zone - 1<br>type: augment<br>source: augments/owlAugment.html<br>description: Evisons]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 1</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>Evisons</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.159114,52.6645755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 2</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/pH3rZU4HZpKJ1Br8-RLuYJ_Tw7ELA6nJwDvJT8cIIp1B1T1MdQKkPYRS11mOymEQiGg-IdojJW7Myjwd18m3vJEi0bH1agwhQF0ok3TOwNs-ml4PBY91dXuLCk9A3S0" height="200" width="auto" /><br><br>zone: Story Zone - 2<br>type: augment<br>source: augments/owlAugment.html<br>description: Clarkson Memorial<br>https://en.wikipedia.org/wiki/Clarkson_Memorial - Thomas Clarkson - a central figure in the campaign against the slave trade in <br>the British empire, and a former native of Wisbech.<br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 2</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>Clarkson Memorial
+https://en.wikipedia.org/wiki/Clarkson_Memorial - Thomas Clarkson - a central figure in the campaign against the slave trade in 
+the British empire, and a former native of Wisbech.
+</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/pH3rZU4HZpKJ1Br8-RLuYJ_Tw7ELA6nJwDvJT8cIIp1B1T1MdQKkPYRS11mOymEQiGg-IdojJW7Myjwd18m3vJEi0bH1agwhQF0ok3TOwNs-ml4PBY91dXuLCk9A3S0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1583469,52.6647494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 3</name>
+        <description><![CDATA[zone: Story Zone - 3<br>type: augment<br>source: augments/bridge360.html<br>description: Brink of the Future - view over river.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 3</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/bridge360.html</value>
+          </Data>
+          <Data name="description">
+            <value>Brink of the Future - view over river.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1577729,52.6649121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 4</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/iR0XU10uOWPpNcE60wpLmoowQoG5xN6QmXjH0EEokbXFBcXE0OYB2qS7PdRkP0EG8l7EecTOie5Y9z2pdkfqM3IuwNKjcCc8HCat8OHNuoCQc5msj5mSkZL-Po3_l3_p" height="200" width="auto" /><br><br>zone: Story Zone - 4<br>type: augment<br>source: augments/owlAugment.html<br>description: Lloyds Bank - view of Memory Bank. <br><br><img src="https://lh4.googleusercontent.com/k_29jOS03xeNFpHDs7lx3y5YN53_GGdyg7VplDLB9PEqx-hJHpde0VeOazL51i8wmXIBUPW6aG7Gsxgp8H8vR_6K-yNDsfZ40hjWU_djTscyMT-Jle5rm1BddtDLG0MZ" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 4</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>Lloyds Bank - view of Memory Bank. </value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/iR0XU10uOWPpNcE60wpLmoowQoG5xN6QmXjH0EEokbXFBcXE0OYB2qS7PdRkP0EG8l7EecTOie5Y9z2pdkfqM3IuwNKjcCc8HCat8OHNuoCQc5msj5mSkZL-Po3_l3_p https://lh4.googleusercontent.com/k_29jOS03xeNFpHDs7lx3y5YN53_GGdyg7VplDLB9PEqx-hJHpde0VeOazL51i8wmXIBUPW6aG7Gsxgp8H8vR_6K-yNDsfZ40hjWU_djTscyMT-Jle5rm1BddtDLG0MZ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1570594,52.66514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 5</name>
+        <description><![CDATA[zone: Story Zone - 5<br>type: augment<br>source: augments/owlAugment.html<br>description: Across the river - The Institute of Discovery]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 5</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>Across the river - The Institute of Discovery</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1540661,52.6644827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 6</name>
+        <description><![CDATA[zone: Story Zone - 6<br>type: augment<br>source: augments/owlAugment.html<br>description: Second Tower - motto enhanced: Be not weary in well doing. ]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 6</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value>Second Tower - motto enhanced: Be not weary in well doing. </value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1511827,52.663274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 7</name>
+        <description><![CDATA[zone: Story Zone - 7<br>type: augment<br>source: augments/owlAugment.html<br>description: Elgood's Courtyard - damage to wall from lightning strike. Black Shuck sighting.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 7</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/owlAugment.html</value>
+          </Data>
+          <Data name="description">
+            <value><![CDATA[Elgood's Courtyard - damage to wall from lightning strike. Black Shuck sighting.]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.150842,52.6618311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Augment - 8</name>
+        <description><![CDATA[zone: Story Zone - 8<br>type: augment<br>source: augments/end360.html<br>description: View back up river of Power Invest Plasma Plant up and running again.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 8</value>
+          </Data>
+          <Data name="type">
+            <value>augment</value>
+          </Data>
+          <Data name="source">
+            <value>augments/end360.html</value>
+          </Data>
+          <Data name="description">
+            <value>View back up river of Power Invest Plasma Plant up and running again.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1509816,52.6612324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>instructions</name>
+      <Placemark>
+        <name>THE START</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/tRD_ehPTHEkPJuhj6ttuck0S9fLQSUUR3px4ItUyMj1QNOvaIEwDKD8F_Z_Pc7DMet0PMMPplG1rwvipBr_PKmGaqcHtTz3zZCkwbDD_ItbXJesRVHuFiOvQ0ju_M8Q" height="200" width="auto" /><br><br>zone: Story Zone - INTRO<br>type: instruction<br>source: #<br>description: The Brink is a digital media project developed with Wisbech and environs artists and creative industries. The outcome is an augmented reality series of interlinking stories to be experienced by visitors to the North Brink area of Wisbech. This is on the north bank of the River Nene, an area that contains historic buildings and has good pedestrian access.<br> <br>NOTES - congregation point outside the museum.<br>At this point we get people briefed and technically sorted (iPhone, Android, mp3, curated, self initiated)]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - INTRO</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>The Brink is a digital media project developed with Wisbech and environs artists and creative industries. The outcome is an augmented reality series of interlinking stories to be experienced by visitors to the North Brink area of Wisbech. This is on the north bank of the River Nene, an area that contains historic buildings and has good pedestrian access.
+ 
+NOTES - congregation point outside the museum.
+At this point we get people briefed and technically sorted (iPhone, Android, mp3, curated, self initiated)</value>
+          </Data>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/tRD_ehPTHEkPJuhj6ttuck0S9fLQSUUR3px4ItUyMj1QNOvaIEwDKD8F_Z_Pc7DMet0PMMPplG1rwvipBr_PKmGaqcHtTz3zZCkwbDD_ItbXJesRVHuFiOvQ0ju_M8Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1612705,52.6639565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 1</name>
+        <description><![CDATA[zone: Story Zone - 1<br>type: instruction<br>source: #<br>description: Turn left and walk towards the Post Office sign. Look right, and cross carefully to be in front of Evisons.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 1</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Turn left and walk towards the Post Office sign. Look right, and cross carefully to be in front of Evisons.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1591034,52.6644843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 2</name>
+        <description><![CDATA[zone: Story Zone - 1<br>type: instruction<br>source: #<br>description: Turn towards the Clarkson Memorial, and cross carefully up to the steps.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 1</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Turn towards the Clarkson Memorial, and cross carefully up to the steps.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1590443,52.6645966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 3</name>
+        <description><![CDATA[zone: Story Zone - 2<br>type: instruction<br>source: #<br>description: Cross over the two roads that will take you to the Bridge and then cross over to the other side to face up the North Brink, making sure to use the pedestrian crossings and to take care of traffic, which is particularly heavy here.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 2</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Cross over the two roads that will take you to the Bridge and then cross over to the other side to face up the North Brink, making sure to use the pedestrian crossings and to take care of traffic, which is particularly heavy here.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.158127,52.664756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 4</name>
+        <description><![CDATA[zone: Story Zone - 3<br>type: instruction<br>source: #<br>description: Now walk across the Bridge towards the North Brink. Make your way to Lloyds National Provincial Bank, taking care of any traffic. Cross the road to the benches and face Lloyds.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 3</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Now walk across the Bridge towards the North Brink. Make your way to Lloyds National Provincial Bank, taking care of any traffic. Cross the road to the benches and face Lloyds.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1576978,52.6650227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 5</name>
+        <description><![CDATA[zone: Story Zone - 4<br>type: instruction<br>source: #<br>description: Walk across back to the other side of the road, and onto the pavement. Follow the path until further instruction.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 4</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Walk across back to the other side of the road, and onto the pavement. Follow the path until further instruction.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1568932,52.6650585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 6</name>
+        <description><![CDATA[zone: Story Zone - 5<br>type: instruction<br>source: #<br>description: Cross the pedestrian crossing carefully and wait on the other side until further instruction.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 5</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Cross the pedestrian crossing carefully and wait on the other side until further instruction.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1531085,52.6642468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 7</name>
+        <description><![CDATA[zone: Story Zone - 6<br>type: instruction<br>source: #<br>description: Continue walking along the Brink to meet Caleb, and look up at the Tower.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 6</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Continue walking along the Brink to meet Caleb, and look up at the Tower.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1528376,52.6641574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 8</name>
+        <description><![CDATA[zone: Story Zone - 6<br>type: instruction<br>source: #<br>description: Continue walking down the road until you meet the intersection. Cross carefully and follow the path continuing on the North Brink.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 6</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Continue walking down the road until you meet the intersection. Cross carefully and follow the path continuing on the North Brink.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1511036,52.6632205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Instruction - 9</name>
+        <description><![CDATA[zone: Story Zone - 7<br>type: instruction<br>source: #<br>description: Continue walking.]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 7</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>Continue walking.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1509574,52.6618294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>THE END (Instruction - 10)</name>
+        <description><![CDATA[zone: Story Zone - 8<br>type: instruction<br>source: #<br>description: You have reached the end of the story, we hope you enjoyed the Brink of the Future, rest a while on the benches if you need to.<br><br>Please complete the survey about the project by following the link. On your way back, listen to the Wisbech people’s memories and stories by clicking on the memory link on the navigation bar above. <br><br>Thank you for taking the time to do this, please tell your friends and family to come and listen to the story. If you have an elderly or infirm relative, the story can be listened to at home by following the link above.<br>]]></description>
+        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="zone">
+            <value>Story Zone - 8</value>
+          </Data>
+          <Data name="type">
+            <value>instruction</value>
+          </Data>
+          <Data name="source">
+            <value>#</value>
+          </Data>
+          <Data name="description">
+            <value>You have reached the end of the story, we hope you enjoyed the Brink of the Future, rest a while on the benches if you need to.
+
+Please complete the survey about the project by following the link. On your way back, listen to the Wisbech people’s memories and stories by clicking on the memory link on the navigation bar above. 
+
+Thank you for taking the time to do this, please tell your friends and family to come and listen to the story. If you have an elderly or infirm relative, the story can be listened to at home by following the link above.
+</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            0.1509172,52.6611576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
